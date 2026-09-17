@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+
+  "id": "bannochbrae",
+  "name": "Bannochbrae",
+
+  "releases": [
+    {
+      "id": "rt-bannochbrae",
+      "name": "Bannochbrae",
+      "authors": ["Reboot Team"],
+
+      "facts": {
+        "lengthKm": 7.2,
+        "pits": 40,
+        "layouts": 7
+      },
+
+      "links": [
+        {
+          "type": "download",
+          "host": "MediaFire",
+          "url": "https://www.mediafire.com/file/bb7hl4xqlsyaz4z/rt_bannochbrae_1.5.7z"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "treefx-bannochbrae",
+      "name": "TreeFX for Bannochbrae",
+      "authors": ["MoriSan"],
+      "for": ["rt-bannochbrae"],
+      "kind": "visual",
+
+      "links": [
+        {
+          "type": "page",
+          "host": "Overtake",
+          "url": "https://www.overtake.gg/downloads/treefx-for-bannochbrae.60092/"
+        }
+      ]
+    },
+    {
+      "id": "bannochbrae-replay-camera",
+      "name": "Bannochbrae Replay Camera",
+      "authors": ["DarkSK"],
+      "for": ["rt-bannochbrae"],
+      "kind": "camera",
+
+      "links": [
+        {
+          "type": "page",
+          "host": "Overtake",
+          "url": "https://www.overtake.gg/downloads/bannochbrae-replay-camera.42227/"
+        }
+      ]
+    },
+    {
+      "id": "camtool-dkn001",
+      "name": "CAMTOOL Replay for RT Bannochbrae",
+      "authors": ["Dkn001"],
+      "for": ["rt-bannochbrae"],
+      "kind": "camera",
+
+      "links": [
+        {
+          "type": "page",
+          "host": "Overtake",
+          "url": "https://www.overtake.gg/downloads/camtool-replay-for-rt-bannochbrae.59267/"
+        }
+      ]
+    },
+    {
+      "id": "camtool-sebadou08",
+      "name": "Camtool rt Bannochbrae raceday v1.1",
+      "authors": ["sebadou08"],
+      "for": ["rt-bannochbrae"],
+      "kind": "camera",
+
+      "links": [
+        {
+          "type": "page",
+          "host": "Overtake",
+          "url": "https://www.overtake.gg/downloads/camtool-rt-bannochbrae-raceday-v1-1.50039/"
+        }
+      ]
+    }
+  ]
+}

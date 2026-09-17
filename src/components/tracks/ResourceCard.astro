@@ -1,0 +1,95 @@
+---
+import type { Resource, Release } from '../../schemas/track';
+
+interface Props {
+  resource: Resource;
+  releases: Release[];
+}
+
+const { resource, releases } = Astro.props;
+const primaryLink = resource.links[0];
+
+const isSubset = releases.length > 1 && resource.for.length < releases.length;
+const subsetLabel = isSubset ? `for ${resource.for.join(' + ')}` : null;
+
+const subtitle = [
+  resource.authors.join(', '),
+  resource.kind?.toLowerCase(),
+  subsetLabel,
+].filter(Boolean).join(' · ');
+---
+
+<a
+  href={primaryLink?.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="resource-card"
+>
+  <div class="card-top">
+    <span class="title">{resource.name}</span>
+    {primaryLink && <span class="destination">{primaryLink.host} ↗</span>}
+  </div>
+
+  <span class="subtitle">{subtitle}</span>
+</a>
+
+<style>
+  .resource-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.85rem 0.95rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 0.35rem;
+    text-decoration: none;
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+
+  .resource-card:hover {
+    border-color: var(--text-dim);
+    background-color: #17171b;
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: var(--text-primary);
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .destination {
+    font-size: 0.7rem;
+    color: #4a4a50;
+    white-space: nowrap;
+    margin-top: 0.15rem;
+    transition: color 0.15s ease;
+  }
+
+  .resource-card:hover .destination {
+    color: var(--text-muted);
+  }
+
+  .subtitle {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>

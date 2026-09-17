@@ -1,0 +1,101 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allTracks = await getCollection('tracks');
+const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+
+<BaseLayout title="Tracks">
+  <div class="index-container">
+    <header class="index-header">
+      <h1 class="page-title">tracks</h1>
+      <span class="count">{tracks.length}</span>
+    </header>
+
+    <div class="track-list">
+      {tracks.map((track) => {
+        const releaseCount = track.data.releases.length;
+        const resourceCount = track.data.resources.length;
+
+        return (
+          <a href={`/tracks/${track.data.id}/`} class="track-row">
+            <div class="track-info">
+              <span class="track-name">{track.data.name}</span>
+              <span class="track-meta">
+                {releaseCount} {releaseCount === 1 ? 'release' : 'releases'} &nbsp;·&nbsp; {resourceCount} {resourceCount === 1 ? 'resource' : 'resources'}
+              </span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .index-container {
+    width: min(100% - 2.5rem, 900px);
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+
+  .index-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .count {
+    font-size: 0.875rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .track-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .track-row {
+    display: block;
+    padding: 0.8rem 0.5rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.12s ease;
+    border-radius: 0.25rem;
+  }
+
+  .track-row:hover {
+    background-color: var(--bg-surface);
+  }
+
+  .track-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .track-name {
+    font-size: 1rem;
+    font-weight: 550;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+  }
+
+  .track-meta {
+    font-size: 0.8125rem;
+    color: var(--text-dim);
+  }
+</style>

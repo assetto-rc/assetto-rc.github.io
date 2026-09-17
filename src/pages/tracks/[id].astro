@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrackDetail from '../../components/tracks/TrackDetail.astro';
+
+export async function getStaticPaths() {
+  const tracks = await getCollection('tracks');
+  return tracks.map((entry) => ({
+    params: { id: entry.data.id },
+    props: { track: entry.data },
+  }));
+}
+
+const { track } = Astro.props;
+---
+
+<BaseLayout title={track.name}>
+  <TrackDetail track={track} />
+</BaseLayout>

@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Home">
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="brand-title">arc</h1>
+      <a href="/tracks" class="explore-link">explore tracks →</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .hero {
+    width: 100%;
+    min-height: calc(100vh - 3.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .brand-title {
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 1;
+    text-shadow: 
+      0 0 30px rgba(255, 255, 255, 0.18),
+      0 0 70px rgba(255, 255, 255, 0.08);
+  }
+
+  .explore-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 0.55rem 1.25rem;
+    border-radius: 0.35rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    transition: all 0.15s ease;
+  }
+
+  .explore-link:hover {
+    color: var(--text-primary);
+    border-color: var(--text-dim);
+    background: #1c1c21;
+  }
+</style>

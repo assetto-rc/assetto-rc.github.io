@@ -1,0 +1,72 @@
+---
+import type { TrackEntry } from '../../schemas/track';
+import SectionHeader from './SectionHeader.astro';
+import ReleaseRow from './ReleaseRow.astro';
+import ResourceCard from './ResourceCard.astro';
+import ResourcePlaceholder from './ResourcePlaceholder.astro';
+
+interface Props {
+  track: TrackEntry;
+}
+
+const { track } = Astro.props;
+const sortedResources = [...track.resources].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<article class="track-index">
+  <header class="track-header">
+    <h1 class="track-title">{track.name}</h1>
+  </header>
+
+  <section class="section-block">
+    <SectionHeader title="releases" count={track.releases.length} />
+    <div class="release-list">
+      {track.releases.map((release) => <ReleaseRow release={release} />)}
+    </div>
+  </section>
+
+  <section class="section-block">
+    <SectionHeader title="resources" count={sortedResources.length} />
+    <div class="resource-masonry">
+      {sortedResources.map((resource) => (
+        <ResourceCard resource={resource} releases={track.releases} />
+      ))}
+      <ResourcePlaceholder trackName={track.name} />
+    </div>
+  </section>
+</article>
+
+<style>
+  .track-index {
+    width: min(100% - 2.5rem, 800px);
+    margin: 0 auto;
+    padding: 3rem 0 5rem;
+  }
+
+  .track-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .track-title {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .section-block {
+    margin-bottom: 3.5rem;
+  }
+
+  .release-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resource-masonry {
+    columns: 3 230px;
+    column-gap: 0.75rem;
+    margin-top: 1rem;
+  }
+</style>

@@ -1,0 +1,90 @@
+---
+import { siteConfig } from '../config/site';
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="header">
+  <div class="header-inner">
+    <a href="/" class="brand">{siteConfig.title}</a>
+
+    <nav class="nav">
+      {siteConfig.nav.map((item) => {
+        //active if current url starts with link href
+        const isActive = currentPath.startsWith(item.href);
+        return (
+          <a href={item.href} class:list={['nav-link', { active: isActive }]}>
+            {item.label}
+          </a>
+        );
+      })}
+
+      <a
+        href={siteConfig.githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="nav-link external"
+      >
+        github ↗
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .header {
+    height: 3.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-main);
+  }
+
+  .header-inner {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .nav-link:hover {
+    color: var(--text-primary);
+  }
+
+  /*when user is currently on this section */
+  .nav-link.active {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+
+  .nav-link.external {
+    color: var(--text-dim);
+  }
+
+  .nav-link.external:hover {
+    color: var(--text-muted);
+  }
+</style>

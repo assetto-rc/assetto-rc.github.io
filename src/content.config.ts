@@ -1,7 +1,10 @@
 import { defineCollection } from 'astro:content';
-import { docsLoader } from '@astrojs/starlight/loaders';
-import { docsSchema } from '@astrojs/starlight/schema';
+import { glob } from 'astro/loaders';
+import { trackEntrySchema } from './schemas/track';
 
 export const collections = {
-	docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
+  tracks: defineCollection({
+    loader: glob({ pattern: '**/*.json', base: './data' }),
+    schema: trackEntrySchema,
+  }),
 };

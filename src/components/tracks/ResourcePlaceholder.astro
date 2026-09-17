@@ -1,0 +1,69 @@
+---
+interface Props {
+  trackName: string;
+}
+
+const { trackName } = Astro.props;
+---
+
+<a
+  href="https://github.com/assetto-rc/assetto-rc.github.io/issues"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="placeholder-card"
+>
+  <div class="card-top">
+    <span class="title">+ submit resource</span>
+    <span class="arrow">↗</span>
+  </div>
+
+  <span class="hint">Know something we're missing for {trackName}?</span>
+</a>
+
+<style>
+  .placeholder-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0.85rem 0.95rem;
+    background: transparent;
+    border: 1px dashed var(--border-color);
+    border-radius: 0.35rem;
+    text-decoration: none;
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+
+  .placeholder-card:hover {
+    border-color: var(--text-dim);
+    background-color: var(--bg-surface);
+  }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.35rem;
+  }
+
+  .title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-muted);
+  }
+
+  .placeholder-card:hover .title {
+    color: var(--text-primary);
+  }
+
+  .arrow {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .hint {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    line-height: 1.35;
+  }
+</style>
