@@ -17,13 +17,16 @@ const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
       {tracks.map((track) => {
         const releaseCount = track.data.releases.length;
         const resourceCount = track.data.resources.length;
+        const camtoolCount = track.data.camtools.length;
 
         return (
           <a href={`/tracks/${track.id}/`} class="track-row">
             <div class="track-info">
               <span class="track-name">{track.data.name}</span>
               <span class="track-meta">
-                {releaseCount} {releaseCount === 1 ? 'release' : 'releases'} &nbsp;·&nbsp; {resourceCount} {resourceCount === 1 ? 'resource' : 'resources'}
+                {releaseCount} {releaseCount === 1 ? 'release' : 'releases'} &nbsp;·&nbsp;
+                {resourceCount} {resourceCount === 1 ? 'resource' : 'resources'}
+                {camtoolCount > 0 && ` · ${camtoolCount} ${camtoolCount === 1 ? 'camtool' : 'camtools'}`}
               </span>
             </div>
           </a>
