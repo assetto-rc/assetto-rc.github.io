@@ -1,0 +1,72 @@
+---
+import type { Camtool } from "../../schemas/track";
+import { getHostLabel } from "../../utils/url";
+
+interface Props {
+  camtool: Camtool;
+}
+
+const { camtool } = Astro.props;
+const primaryLink = camtool.links[0];
+---
+
+<a
+  href={primaryLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="camtool-row"
+>
+  <div class="main">
+    <span class="author">{camtool.authors.join(", ")}</span>
+    {camtool.layout && <span class="layout">{camtool.layout}</span>}
+  </div>
+
+  {primaryLink && (
+    <span class="destination">{getHostLabel(primaryLink)} ↗</span>
+  )}
+</a>
+
+<style>
+  .camtool-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.75rem 0.75rem;
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    transition: background-color 0.12s ease;
+  }
+
+  .camtool-row:hover {
+    background-color: var(--bg-surface);
+  }
+
+  .main {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+  }
+
+  .author {
+    font-size: 0.875rem;
+    font-weight: 550;
+    color: var(--text-primary);
+  }
+
+  .layout {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .destination {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+    transition: color 0.15s ease;
+  }
+
+  .camtool-row:hover .destination {
+    color: var(--text-primary);
+  }
+</style>

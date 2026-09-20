@@ -1,16 +1,19 @@
 ---
-import type { TrackEntry } from '../../schemas/track';
-import SectionHeader from './SectionHeader.astro';
-import ReleaseRow from './ReleaseRow.astro';
-import ResourceCard from './ResourceCard.astro';
-import ResourcePlaceholder from './ResourcePlaceholder.astro';
+import type { TrackEntry } from "../../schemas/track";
+import SectionHeader from "./SectionHeader.astro";
+import ReleaseRow from "./ReleaseRow.astro";
+import ResourceCard from "./ResourceCard.astro";
+import ResourcePlaceholder from "./ResourcePlaceholder.astro";
+import CamtoolRow from "./CamtoolRow.astro";
 
 interface Props {
   track: TrackEntry;
 }
 
 const { track } = Astro.props;
-const sortedResources = [...track.resources].sort((a, b) => a.name.localeCompare(b.name));
+const sortedResources = [...track.resources].sort((a, b) =>
+  a.name.localeCompare(b.name),
+);
 ---
 
 <article class="track-index">
@@ -27,19 +30,32 @@ const sortedResources = [...track.resources].sort((a, b) => a.name.localeCompare
 
   <section class="section-block">
     <SectionHeader title="resources" count={sortedResources.length} />
-    <div class="resource-masonry">
-      {sortedResources.map((resource) => (
-        <ResourceCard resource={resource} releases={track.releases} />
-      ))}
+    <div class="resource-grid">
+      {
+        sortedResources.map((resource) => (
+          <ResourceCard resource={resource} releases={track.releases} />
+        ))
+      }
       <ResourcePlaceholder trackName={track.name} />
     </div>
   </section>
+
+  {
+    track.camtools.length > 0 && (
+      <section class="section-block">
+        <SectionHeader title="camtools" count={track.camtools.length} />
+        <div class="camtool-list">
+          {track.camtools.map((camtool) => (
+            <CamtoolRow camtool={camtool} />
+          ))}
+        </div>
+      </section>
+    )
+  }
 </article>
 
 <style>
   .track-index {
-    width: min(100% - 2.5rem, 800px);
-    margin: 0 auto;
     padding: 3rem 0 5rem;
   }
 
@@ -59,14 +75,16 @@ const sortedResources = [...track.resources].sort((a, b) => a.name.localeCompare
     margin-bottom: 3.5rem;
   }
 
-  .release-list {
+  .release-list,
+  .camtool-list {
     display: flex;
     flex-direction: column;
   }
 
-  .resource-masonry {
-    columns: 3 230px;
-    column-gap: 0.75rem;
+  .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.75rem;
     margin-top: 1rem;
   }
 </style>

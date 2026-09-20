@@ -1,0 +1,63 @@
+{
+  "name": "Kotor-Trojica",
+  "releases": [
+    {
+      "name": "Kotor-Trojica",
+      "authors": ["Lemax"],
+      "lengthKm": 4,
+      "pits": 36,
+      "layouts": 2,
+      "links": ["https://www.overtake.gg/downloads/kotor-trojica.50162/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Hillclimb Beauty",
+      "authors": ["Mike08"],
+      "kind": "visual",
+      "links": ["https://www.patreon.com/posts/hillclimb-beauty-65165635"]
+    },
+    {
+      "name": "RainFX Patch",
+      "authors": ["M' Works"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/kotor-trojica-rainfx-patch.71321/"
+      ]
+    },
+    {
+      "name": "TV Cameras",
+      "authors": ["Leonardo Ratafiá"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/tv-cameras-for-kotor-trojica.50252/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/kotor-trojica-camtool-replay.50204/"
+      ]
+    },
+    {
+      "authors": ["Dkn001"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-replay-for-kotor-trojica.58243/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-kotor-trojica.58601/"
+      ]
+    },
+    {
+      "authors": ["sebadou08"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-kotor-trojica-0-8-hillclimb-and-circuit.50997/"
+      ]
+    }
+  ]
+}

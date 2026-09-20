@@ -1,0 +1,43 @@
+{
+  "name": "Union Island",
+  "releases": [
+    {
+      "name": "Union Island",
+      "authors": ["Ben O'Bro"],
+      "lengthKm": 33.5,
+      "pits": 45,
+      "layouts": 5,
+      "links": ["https://www.overtake.gg/downloads/union-island.45276/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "AI Update",
+      "authors": ["weikangcai"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/ai-update-for-union-island.58989/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["Aleroma"],
+      "links": [
+        "https://www.overtake.gg/downloads/union-island-camtool-replay.52008/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-union-island-west-layout.45377/"
+      ]
+    },
+    {
+      "authors": ["sebadou08"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-union-island-scenic-0-81.46095/"
+      ]
+    }
+  ]
+}

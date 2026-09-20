@@ -1,0 +1,70 @@
+{
+  "name": "Hakone Turnpike",
+  "releases": [
+    {
+      "id": "rize",
+      "name": "Hakone Turnpike",
+      "authors": ["RiZe"],
+      "lengthKm": 8.3,
+      "pits": 56,
+      "layouts": 10,
+      "links": ["https://rizeacmods.gumroad.com/l/eeqkdd"]
+    },
+    {
+      "id": "ecqt",
+      "name": "Hakone Turnpike",
+      "authors": ["ECQT"],
+      "lengthKm": 7.2,
+      "pits": 20,
+      "layouts": 1,
+      "links": [
+        "https://drive.google.com/file/d/1luhldtEK06oDJCe-jfZS1GW2aH7ZJxxW/view"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Addon v2.0",
+      "authors": ["shin956"],
+      "for": ["ecqt"],
+      "kind": "visual",
+      "links": [
+        "https://www.mediafire.com/file/nnfcnjsjudkdfnw/hakoneTurnpike_wmmt5_addon_v2.0.7z/file"
+      ]
+    },
+    {
+      "name": "TreeFX v3.3",
+      "authors": ["studio55"],
+      "for": ["ecqt"],
+      "kind": "visual",
+      "links": [
+        "https://mega.nz/file/RBQjSRyR#da6wRT9n2cfm8TZQ2O1A1gLppxfGVxFf7EodayDC4KU"
+      ]
+    },
+    {
+      "name": "Invisible Wall in Pit Fix",
+      "authors": ["mgcg12"],
+      "for": ["ecqt"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/hakone-turnpike-invisible-wall-in-pit-fix.68541/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["Sourai"],
+      "for": ["ecqt"],
+      "links": [
+        "https://www.overtake.gg/downloads/hakone-turnpike-hillcrimb-camtool2-data.56035/"
+      ]
+    },
+    {
+      "authors": ["Sourai"],
+      "for": ["ecqt"],
+      "links": [
+        "https://www.overtake.gg/downloads/hakone-turnpike-downhill-camtool2-data.55710/"
+      ]
+    }
+  ]
+}

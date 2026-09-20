@@ -6,7 +6,7 @@ import TrackDetail from '../../components/tracks/TrackDetail.astro';
 export async function getStaticPaths() {
   const tracks = await getCollection('tracks');
   return tracks.map((entry) => ({
-    params: { id: entry.data.id },
+    params: { id: entry.id },
     props: { track: entry.data },
   }));
 }

@@ -1,0 +1,56 @@
+{
+  "name": "Lime Rock Park",
+  "releases": [
+    {
+      "name": "Lime Rock Park",
+      "authors": ["Reboot Team"],
+      "lengthKm": 2.4,
+      "pits": 35,
+      "layouts": 2,
+      "links": [
+        "https://www.mediafire.com/file/8pnw5ceo5cx7y09/rt_lime_rock_park.7z/file",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Modified ext_config",
+      "authors": ["racinjoe013"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/rt-lime-rock-park-modified-ext_config.48016/"
+      ]
+    },
+    {
+      "name": "1960s Vintage",
+      "authors": ["GreenMachine13"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/1960s-vintage-lime-rock-skin.52688/"
+      ]
+    },
+    {
+      "name": "80s Camel GT",
+      "authors": ["The_BanditYT"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/80s-camel-gt-lime-rock.46597/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cams-for-lime-rock-park.56017/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-lime-rock-park-full-circuit-layout.43929/"
+      ]
+    }
+  ]
+}

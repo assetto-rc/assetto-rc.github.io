@@ -1,105 +1,50 @@
 {
-  "schemaVersion": 1,
-
-  "id": "ascari-race-resort",
   "name": "Ascari Race Resort",
-
   "releases": [
     {
-      "id": "ascari-race-resort",
       "name": "Ascari Race Resort",
       "authors": ["shin956", "Mike08", "Nukedrop"],
-
-      "facts": {
-        "lengthKm": 5.3,
-        "pits": 24,
-        "layouts": 4
-      },
-
+      "lengthKm": 5.3,
+      "pits": 24,
+      "layouts": 4,
+      "links": ["https://www.overtake.gg/downloads/ascari-race-resort.55773/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "PRM",
+      "authors": ["ludwig6666"],
+      "kind": "visual",
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ascari-race-resort.55773/"
-        }
+        "https://www.overtake.gg/downloads/ascari-race-resort-prm.67931/"
+      ]
+    },
+    {
+      "name": "AI",
+      "authors": ["spitzanu"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/ai-for-ascari-race-resort.66117/"
       ]
     }
   ],
-
-  "resources": [
+  "camtools": [
     {
-      "id": "ascari-race-resort-prm",
-      "name": "Ascari Race Resort - PRM",
-      "authors": ["ludwig6666"],
-      "for": ["ascari-race-resort"],
-      "kind": "visual",
-
-      "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ascari-race-resort-prm.67931/"
-        }
-      ]
-    },
-    {
-      "id": "ai-ascari-race-resort",
-      "name": "AI for Ascari Race Resort",
-      "authors": ["spitzanu"],
-      "for": ["ascari-race-resort"],
-      "kind": "ai",
-
-      "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ai-for-ascari-race-resort.66117/"
-        }
-      ]
-    },
-    {
-      "id": "full-camtool",
-      "name": "Ascari Race Resort full camtool",
       "authors": ["binbin"],
-      "for": ["ascari-race-resort"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ascari-race-resort-full-camtool.73801/"
-        }
+        "https://www.overtake.gg/downloads/ascari-race-resort-full-camtool.73801/"
       ]
     },
     {
-      "id": "camtool-giuniral",
-      "name": "Ascari race resort camtool replay by GiuNiral",
       "authors": ["THE Giulliano Larin"],
-      "for": ["ascari-race-resort"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ascari-race-resort-camtool-replay-by-giuniral.62008/"
-        }
+        "https://www.overtake.gg/downloads/ascari-race-resort-camtool-replay-by-giuniral.62008/"
       ]
     },
     {
-      "id": "camtool-pchay1983",
-      "name": "Ascari Circuit Camtool Replay",
       "authors": ["Pchay1983"],
-      "for": ["ascari-race-resort"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/ascari-circuit-camtool-replay.55887/"
-        }
+        "https://www.overtake.gg/downloads/ascari-circuit-camtool-replay.55887/"
       ]
     }
   ]

@@ -1,0 +1,57 @@
+{
+  "name": "Fonteny",
+  "releases": [
+    {
+      "name": "Fonteny",
+      "authors": ["Fat-Alfie"],
+      "lengthKm": 25.8,
+      "pits": 40,
+      "layouts": 4,
+      "links": ["https://www.overtake.gg/downloads/fonteny.30137/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "RainFX, Seasons, Water Shader, Lights & Grass",
+      "authors": ["ktulu77"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/fonteny-rainfx-seasons-water-shader-more-lights-and-grass.41984/"
+      ]
+    },
+    {
+      "name": "2-Way Traffic",
+      "authors": ["alekabul"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/2-way-traffic-layout-for-fonteny.30375/"
+      ]
+    },
+    {
+      "name": "Replay Cameras",
+      "authors": ["DarkSK"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/fontney-replay-cameras.35301/"
+      ]
+    },
+    {
+      "name": "Dirty Old Town",
+      "authors": ["pepperoni ac24"],
+      "kind": "skin",
+      "links": ["https://www.overtake.gg/downloads/dirty-old-town.41531/"]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["sebadou08"],
+      "links": ["https://www.overtake.gg/downloads/camtool-for-fonteny.41824/"]
+    },
+    {
+      "authors": ["THE Giulliano Larin"],
+      "links": [
+        "https://www.overtake.gg/downloads/fonteny-camtool-replay-giuniral.35322/"
+      ]
+    }
+  ]
+}

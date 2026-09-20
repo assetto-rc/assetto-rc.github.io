@@ -19,7 +19,7 @@ const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
         const resourceCount = track.data.resources.length;
 
         return (
-          <a href={`/tracks/${track.data.id}/`} class="track-row">
+          <a href={`/tracks/${track.id}/`} class="track-row">
             <div class="track-info">
               <span class="track-name">{track.data.name}</span>
               <span class="track-meta">
@@ -35,8 +35,6 @@ const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 <style>
   .index-container {
-    width: min(100% - 2.5rem, 900px);
-    margin: 0 auto;
     padding: 3rem 0;
   }
 

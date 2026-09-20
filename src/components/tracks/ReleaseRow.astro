@@ -1,34 +1,44 @@
 ---
-import type { Release } from '../../schemas/track';
+import type { Release } from "../../schemas/track";
+import { getHostLabel } from "../../utils/url";
 
 interface Props {
   release: Release;
 }
 
 const { release } = Astro.props;
-const primaryLink = release.links[0];
 
 const facts = [
-  release.facts?.lengthKm && `${release.facts.lengthKm} km`,
-  release.facts?.pits && `${release.facts.pits} pits`,
-  release.facts?.layouts && `${release.facts.layouts} layouts`,
-].filter(Boolean).join(' · ');
+  release.lengthKm && `${release.lengthKm} km`,
+  release.pits && `${release.pits} pits`,
+  release.layouts && `${release.layouts} layouts`,
+]
+  .filter(Boolean)
+  .join(" · ");
 ---
 
-<a
-  href={primaryLink?.url}
-  target="_blank"
-  rel="noopener noreferrer"
-  class="release-row"
->
+<div class="release-row">
   <div class="main">
     <span class="title">{release.name}</span>
-    <span class="subtitle">{release.authors.join(', ')}</span>
+    <span class="subtitle">{release.authors.join(", ")}</span>
     {facts && <span class="facts">{facts}</span>}
   </div>
 
-  {primaryLink && <span class="destination">{primaryLink.host} ↗</span>}
-</a>
+  <div class="destinations">
+    {
+      release.links.map((link) => (
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="destination-link"
+        >
+          {getHostLabel(link)} ↗
+        </a>
+      ))
+    }
+  </div>
+</div>
 
 <style>
   .release-row {
@@ -36,10 +46,10 @@ const facts = [
     justify-content: space-between;
     align-items: flex-start;
     padding: 1rem 0.75rem;
-    text-decoration: none;
     border-bottom: 1px solid var(--border-color);
-    transition: background-color 0.12s ease;
     border-radius: 0.25rem;
+    gap: 1.5rem;
+    transition: background-color 0.12s ease;
   }
 
   .release-row:hover {
@@ -50,6 +60,7 @@ const facts = [
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
+    min-width: 0;
   }
 
   .title {
@@ -73,15 +84,23 @@ const facts = [
     line-height: 1.25;
   }
 
-  .destination {
-    font-size: 0.75rem;
-    color: #4a4a50;
-    white-space: nowrap;
+  .destinations {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    flex-shrink: 0;
     margin-top: 0.12rem;
+  }
+
+  .destination-link {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    white-space: nowrap;
     transition: color 0.15s ease;
   }
 
-  .release-row:hover .destination {
-    color: var(--text-muted);
+  .destination-link:hover {
+    color: var(--text-primary);
   }
 </style>

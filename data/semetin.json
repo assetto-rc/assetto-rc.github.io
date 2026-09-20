@@ -1,89 +1,44 @@
 {
-  "schemaVersion": 1,
-
-  "id": "semetin",
   "name": "Semetin",
-
   "releases": [
     {
-      "id": "semetin",
       "name": "Semetin",
       "authors": ["SIM TRAXX"],
-
-      "facts": {
-        "lengthKm": 11.7,
-        "pits": 30,
-        "layouts": 3
-      },
-
-      "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/semetin-czechia.10782/"
-        }
-      ]
+      "lengthKm": 11.7,
+      "pits": 30,
+      "layouts": 3,
+      "links": ["https://www.overtake.gg/downloads/semetin-czechia.10782/"]
     }
   ],
   "resources": [
     {
-      "id": "32k-all-in-one",
-      "name": "32k-SimTraxx SEMETIN (all in one)",
+      "name": "32k All-in-One",
       "authors": ["GSMF Alien"],
-      "for": ["semetin"],
       "kind": "visual",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/32k-simtraxx-semetin-all-in-one.50391/"
-        }
+        "https://www.overtake.gg/downloads/32k-simtraxx-semetin-all-in-one.50391/"
       ]
     },
     {
-      "id": "objects-update",
-      "name": "0.95 Objects 4 SimTraxx SEMETIN 1.05",
+      "name": "0.95 Objects",
       "authors": ["GSMF Alien"],
-      "for": ["semetin"],
       "kind": "visual",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/0-95-objects-4-simtraxx-semetin-1-05.50644/"
-        }
+        "https://www.overtake.gg/downloads/0-95-objects-4-simtraxx-semetin-1-05.50644/"
       ]
-    },
+    }
+  ],
+  "camtools": [
     {
-      "id": "camtool-giuniral",
-      "name": "SimTraxx Semetin Camtool replay - GiuNiral",
       "authors": ["THE Giulliano Larin"],
-      "for": ["semetin"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/simtraxx-semetin-camtool-replay-giuniral.40595/"
-        }
+        "https://www.overtake.gg/downloads/simtraxx-semetin-camtool-replay-giuniral.40595/"
       ]
     },
     {
-      "id": "camtool-sebadou08",
-      "name": "Camtool SEMETIN/ULTIMATE/classic/SS1",
       "authors": ["sebadou08"],
-      "for": ["semetin"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/camtool-semetin-ultimate-classic-ss1.47637/"
-        }
+        "https://www.overtake.gg/downloads/camtool-semetin-ultimate-classic-ss1.47637/"
       ]
     }
   ]

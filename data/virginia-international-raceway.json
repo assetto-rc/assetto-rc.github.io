@@ -1,0 +1,67 @@
+{
+  "name": "Virginia International Raceway",
+  "releases": [
+    {
+      "name": "Virginia International Raceway",
+      "authors": ["dazzyb2k3"],
+      "lengthKm": 5.2,
+      "pits": 33,
+      "layouts": 7,
+      "links": [
+        "https://www.overtake.gg/downloads/virginia-international-raceway.11892/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Facelift Extension",
+      "authors": ["BoBaHK"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/virginia-international-raceway-facelift-extension.48294/"
+      ]
+    },
+    {
+      "name": "48 Pits (Full Race & Grand East)",
+      "authors": ["SaxoKyle"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/vir-1-x-addon-48-pits-for-full-race-grand-east-course.67083/"
+      ]
+    },
+    {
+      "name": "Fast AI",
+      "authors": ["dbeck110"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/virginia-international-raceway-vir-fast-ai.71542/"
+      ]
+    },
+    {
+      "name": "Track Skin",
+      "authors": ["racinjoe013"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/virginia-international-vir-track-skin.47625/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["THE Giulliano Larin"],
+      "links": [
+        "https://www.overtake.gg/downloads/vir-full-course-camtool-by-giuniral.36837/"
+      ]
+    },
+    {
+      "authors": ["Dkn001"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-replay-for-virginia-international-raceway-east-west-course.71591/"
+      ]
+    },
+    {
+      "authors": ["chas1723"],
+      "links": ["https://www.overtake.gg/downloads/camtool-cams-for-vir.55462/"]
+    }
+  ]
+}

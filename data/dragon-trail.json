@@ -1,75 +1,38 @@
 {
-  "schemaVersion": 1,
-
-  "id": "dragon-trail",
   "name": "Dragon Trail",
-
   "releases": [
     {
-      "id": "gt-dragontrail",
       "name": "Dragon Trail",
       "authors": ["Reboot Team"],
-
-      "facts": {
-        "lengthKm": 5.2,
-        "pits": 28,
-        "layouts": 6
-      },
-
+      "lengthKm": 5.2,
+      "pits": 28,
+      "layouts": 6,
       "links": [
-        {
-          "type": "download",
-          "host": "MediaFire",
-          "url": "https://www.mediafire.com/file/6bf5h4ul4x62e33/gt_dragontrail.7z/"
-        }
+        "https://www.mediafire.com/file/6bf5h4ul4x62e33/gt_dragontrail.7z/"
       ]
     }
   ],
-
   "resources": [
     {
-      "id": "fast-ai",
       "name": "Fast AI",
       "authors": ["IMEAN"],
-      "for": ["gt-dragontrail"],
       "kind": "ai",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/fast-ai-for-dragon-trail-seaside.74150/"
-        }
+        "https://www.overtake.gg/downloads/fast-ai-for-dragon-trail-seaside.74150/"
       ]
-    },
+    }
+  ],
+  "camtools": [
     {
-      "id": "camtool-double-dragon",
-      "name": "CAMTOOL Replay for Dragon Trail - Double Dragon",
       "authors": ["Dkn001"],
-      "for": ["gt-dragontrail"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/camtool-replay-for-dragon-trail-double-dragon.57761/"
-        }
+        "https://www.overtake.gg/downloads/camtool-replay-for-dragon-trail-double-dragon.57761/"
       ]
     },
     {
-      "id": "camtool-rambokim",
-      "name": "Dragon Trail camtool replay",
       "authors": ["rambokim"],
-      "for": ["gt-dragontrail"],
-      "kind": "camera",
-
       "links": [
-        {
-          "type": "page",
-          "host": "Overtake",
-          "url": "https://www.overtake.gg/downloads/dragon-trail-camtool-replay.47520/"
-        }
+        "https://www.overtake.gg/downloads/dragon-trail-camtool-replay.47520/"
       ]
     }
   ]
