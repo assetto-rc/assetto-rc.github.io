@@ -1,0 +1,67 @@
+{
+  "name": "Hockenheimring",
+  "releases": [
+    {
+      "name": "Hockenheimring",
+      "authors": ["VheEth"],
+      "lengthKm": 4.6,
+      "pits": 26,
+      "layouts": 4,
+      "links": [
+        "https://www.mediafire.com/file/fnaw8e4lsq76l2k/vhe_hockenheim_1.3.rar/file"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Faster AI Line",
+      "authors": ["parrilla"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/hockenheim-gp-faster-ai.74501/"
+      ]
+    },
+    {
+      "name": "F1 2021 AI Line",
+      "authors": ["max kagan"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/hockenheim-f1-ai-2021.43069/"
+      ]
+    },
+    {
+      "name": "DTM 2024",
+      "authors": ["ReicLeon08"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/hockenheim-dtm-2024-track-skin.74308/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cams-for-hockenheim.56878/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-hockenheim-gp-layout.47616/"
+      ]
+    },
+    {
+      "authors": ["sebadou08"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-tv-cam-vhe-hockenheim-1-3.63824/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/vhe_hockenheim-short-b-camtool-replay.38498/"
+      ]
+    }
+  ]
+}

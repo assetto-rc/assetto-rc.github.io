@@ -1,0 +1,18 @@
+{
+  "name": "Daytona International Speedway",
+  "releases": [
+    {
+      "name": "Daytona International Speedway",
+      "authors": ["Reboot Team"],
+      "lengthKm": 4.5,
+      "pits": 36,
+      "layouts": 2,
+      "links": [
+        "https://drive.google.com/file/d/1FsmKs8yY2xiLkR-zSlsiFP9E5Ba4dOp2/edit",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [],
+  "camtools": []
+}

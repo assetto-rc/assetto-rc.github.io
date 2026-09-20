@@ -1,0 +1,27 @@
+{
+  "name": "Hungaroring",
+  "releases": [
+    {
+      "name": "Hungaroring",
+      "authors": ["Reboot Team"],
+      "lengthKm": 4.4,
+      "pits": 30,
+      "layouts": 1,
+      "links": [
+        "https://www.mediafire.com/file/i38zy1n6ez0fl4p/rt_dubai.7z/",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Faster AI Line",
+      "authors": ["Thockard"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/new-ai-fastlane-for-acu_hungaroring-and-pyyer-extensions-2022.68387/"
+      ]
+    }
+  ],
+  "camtools": []
+}

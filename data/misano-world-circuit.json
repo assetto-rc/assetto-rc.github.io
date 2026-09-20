@@ -1,0 +1,38 @@
+{
+  "name": "Misano World Circuit",
+  "releases": [
+    {
+      "name": "Misano World Circuit",
+      "authors": ["Reboot Team"],
+      "lengthKm": 4,
+      "pits": 38,
+      "layouts": 1,
+      "links": [
+        "https://mega.nz/file/rZF1mLBZ#yWkoxQDGZkhLpp9b5Th5qDxH4VKrMr_qcUYJsTLFb7g",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "3D Trees",
+      "authors": ["ludwig6666"],
+      "kind": "visual",
+      "links": ["https://www.overtake.gg/downloads/rt-misano-3d-trees.60819/"]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["Ricardo Raceworks"],
+      "links": [
+        "https://www.overtake.gg/downloads/trackside-camtool-for-reboot-team-misano.59809/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/rt_misano-camtool-replay.38761/"
+      ]
+    }
+  ]
+}

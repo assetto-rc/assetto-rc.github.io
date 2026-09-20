@@ -1,0 +1,100 @@
+{
+  "name": "Sebring International Raceway",
+  "releases": [
+    {
+      "name": "Sebring International Raceway",
+      "authors": ["Reboot Team"],
+      "lengthKm": 6,
+      "pits": 32,
+      "layouts": 2,
+      "links": [
+        "https://www.mediafire.com/file/7qdzbbff2npwwie/rt_sebring.7z/file",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "3D Trees + Updated terrain",
+      "authors": ["nanyta"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/3d-trees-sebring-update-terrain-and-grass.62830/"
+      ]
+    },
+    {
+      "name": "Addon Layouts",
+      "authors": ["lachub"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/addon-layouts-for-sebring-reboot-team.76531/"
+      ]
+    },
+    {
+      "name": "Faster AI Line",
+      "authors": ["parrilla"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/sebring-international-raceway-faster-ai.75820/"
+      ]
+    },
+    {
+      "name": "IMSA TV Camera Set",
+      "authors": ["DannyDotCam"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/sebring-imsa-tv-camera-set.70012/"
+      ]
+    },
+    {
+      "name": "IMSA Sebring 12 Hours 2021 Replay Cameras",
+      "authors": ["Gregz0r"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/rt_sebring-imsa-sebring-12-hours-2021-replay-cameras.47421/"
+      ]
+    },
+    {
+      "name": "Race Cams",
+      "authors": ["racealot"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/race-cams-for-rt-sebring.47437/"
+      ]
+    },
+    {
+      "name": "2022 Skin",
+      "authors": ["MEDIIZA Designs"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/sebring-2022-skin-new-ai-racing-line.56279/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cam-for-sebring.55133/"
+      ]
+    },
+    {
+      "authors": ["Dkn001"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-replay-for-rt-sebring-international-raceway.63449/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-for-sebring-international-raceway-by-reboot-team.47324/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/rt-sebring-camtool-replay.47308/"
+      ]
+    }
+  ]
+}

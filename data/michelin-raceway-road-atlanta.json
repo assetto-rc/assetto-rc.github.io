@@ -1,0 +1,71 @@
+{
+  "name": "Michelin Raceway Road Atlanta",
+  "releases": [
+    {
+      "name": "Michelin Raceway Road Atlanta",
+      "authors": ["John R"],
+      "lengthKm": 4,
+      "pits": 52,
+      "layouts": 5,
+      "links": ["https://ko-fi.com/s/0b7b682d4a"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Faster AI Line",
+      "authors": ["parrilla"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-2022-faster-ai.74878/"
+      ]
+    },
+    {
+      "name": "Fast AI Line",
+      "authors": ["dbeck110"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-2022-fast-ai-line.71447/"
+      ]
+    },
+    {
+      "name": "IMSA 2015",
+      "authors": ["morizottom"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-imsa-2015-skin.63437/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["bjorn1guntherson"],
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-track-cameras-club-layout.70879/"
+      ]
+    },
+    {
+      "authors": ["gmanhunt"],
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-camtool-replay.66825/"
+      ]
+    },
+    {
+      "authors": ["M2049"],
+      "links": [
+        "https://www.overtake.gg/downloads/road-atlanta-main-layout-camtool.57048/"
+      ]
+    },
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cams-for-road-atlanta.54429/"
+      ]
+    },
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cams-for-road-atlanta-2022.54857/"
+      ]
+    }
+  ]
+}

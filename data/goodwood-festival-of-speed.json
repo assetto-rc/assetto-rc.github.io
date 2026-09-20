@@ -1,0 +1,69 @@
+{
+  "name": "Goodwood Festival of Speed",
+  "releases": [
+    {
+      "name": "Goodwood Festival of Speed",
+      "authors": ["Gunnar333"],
+      "lengthKm": 1.86,
+      "pits": 30,
+      "layouts": 5,
+      "links": [
+        "https://www.overtake.gg/downloads/goodwood-festival-of-speed-2017.26839/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "3D Trees",
+      "authors": ["Jay__Jay"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/3d-trees-for-goodwood-festival-of-speed-gran-turismo-5-track.70223/"
+      ]
+    },
+    {
+      "name": "Shader Overhaul",
+      "authors": ["Raimaker_87"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/goodwood-festival-of-speed-2017-gunnar333-shader-overhaul.62143/"
+      ]
+    },
+    {
+      "name": "Turnaround Extension",
+      "authors": ["GT3RSAss"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/goodwood-fos-turnaround-add-on.71232/"
+      ]
+    },
+    {
+      "name": "Dry Grass",
+      "authors": ["TheNuvolari"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/dry-grass-skin-for-goodwood-hillclimb.49398/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["M2049"],
+      "links": [
+        "https://www.overtake.gg/downloads/goodwood-hillclimb-camtool.56751/"
+      ]
+    },
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-goodwood-festival-of-speed-2017.33044/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/goodwood-festival-of-speedy-camtool-replay.29955/"
+      ]
+    }
+  ]
+}

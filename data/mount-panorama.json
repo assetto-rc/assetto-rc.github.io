@@ -1,0 +1,146 @@
+{
+  "name": "Mount Panorama",
+  "releases": [
+    {
+      "name": "Mount Panorama",
+      "authors": ["Reboot Team"],
+      "lengthKm": 6.2,
+      "pits": 36,
+      "layouts": 1,
+      "links": [
+        "http://www.mediafire.com/file/q0fjrwil59d8ig7/rt_bathurst.rar/file",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "66 Pits Layout Extension",
+      "authors": ["shock_"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/rt-bathurst-66-pits-layout.72413/"
+      ]
+    },
+    {
+      "name": "Helicopters Add-on",
+      "authors": ["BJ911"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-helicopters-add-on-pack.52599/"
+      ]
+    },
+    {
+      "name": "Bathurst 1000 Spectator Update",
+      "authors": ["Kangaroo8897"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-1000-spectator-update-for-rt_bathurst.71209/"
+      ]
+    },
+    {
+      "name": "Fast AI",
+      "authors": ["dbeck110"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/mount-panorama-fast-ai.74782/"
+      ]
+    },
+    {
+      "name": "Faster AI Line",
+      "authors": ["IMEAN"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/fast-ai-for-bathurst-version-by-reboot-team.72921/"
+      ]
+    },
+    {
+      "name": "New TV Replay Cams",
+      "authors": ["ValentinK"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/mount-panorama-bathurst-new-tv-camera.59761/"
+      ]
+    },
+    {
+      "name": "Bathurst 6 Hour 2023",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-6-hour-2023-track-skin.65697/"
+      ]
+    },
+    {
+      "name": "Bathurst 6 Hour 2024",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-6-hour-2024-track-skin.68496/"
+      ]
+    },
+    {
+      "name": "Bathurst 12 Hour 2023",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-12-hour-2023-track-skin.65067/"
+      ]
+    },
+    {
+      "name": "Bathurst 12 Hour 2024",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-12-hour-2024-track-skin.67259/"
+      ]
+    },
+    {
+      "name": "Bathurst 12 Hour 2025",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-12-hour-2025-track-skin.74990/"
+      ]
+    },
+    {
+      "name": "Bathurst International 2023",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-international-2023-track-skin.66281/"
+      ]
+    },
+    {
+      "name": "Bathurst International 2024",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-international-2024-track-skin.73722/"
+      ]
+    },
+    {
+      "name": "Bathurst 500 (2024)",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-500-2024-track-skin.68342/"
+      ]
+    },
+    {
+      "name": "Bathurst 1000 (2024)",
+      "authors": ["Mr.E.Boy"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/bathurst-1000-2024-track-skin.73493/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-cams-for-bathurst.54448/"
+      ]
+    }
+  ]
+}

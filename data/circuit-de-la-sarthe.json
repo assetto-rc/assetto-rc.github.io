@@ -1,0 +1,27 @@
+{
+  "name": "Circuit de la Sarthe",
+  "releases": [
+    {
+      "name": "Circuit de la Sarthe",
+      "authors": ["Reboot Team"],
+      "lengthKm": 13.6,
+      "pits": 70,
+      "layouts": 5,
+      "links": [
+        "https://www.mediafire.com/file/rb6atiboutoiapv/sx_lemans_v2.9.7z/",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "3D Trees (TreeFX)",
+      "authors": ["Johannes Steiger"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/tree-fx-for-le-mans-fm7-reboot-version.58228/"
+      ]
+    }
+  ],
+  "camtools": []
+}

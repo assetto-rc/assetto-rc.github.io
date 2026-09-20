@@ -1,0 +1,75 @@
+{
+  "name": "Suzuka Circuit",
+  "releases": [
+    {
+      "name": "Suzuka Circuit",
+      "authors": ["Reboot Team"],
+      "lengthKm": 5.8,
+      "pits": 36,
+      "layouts": 3,
+      "links": [
+        "https://www.mediafire.com/file/idkqua4w4c54lb8/rt_suzuka.7z/file",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "2022 Super GT Extension",
+      "authors": ["TheNuvolari"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/suzuka-international-circuit-2022-super-gt-extension-for-suzuka-by-reboot-team.58163/"
+      ]
+    },
+    {
+      "name": "Pit Props Addon",
+      "authors": ["TheNuvolari"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/pit-props-addon-for-suzuka-circuit-by-reboot-team.58049/"
+      ]
+    },
+    {
+      "name": "City Skyline",
+      "authors": ["TheNuvolari"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/city-skyline-for-suzuka-circuit-by-reboot-team.57850/"
+      ]
+    },
+    {
+      "name": "Faster AI Line",
+      "authors": ["parrilla"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/suzuka-circuit-faster-ai.58583/"
+      ]
+    },
+    {
+      "name": "Replay Cams",
+      "authors": ["kamizuru"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/rt_suzuka-replay-cams-super-gt-ver-surveillance-camera-ver.36506/"
+      ]
+    },
+    {
+      "name": "Universal Summer",
+      "authors": ["TheNuvolari"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/universal-summer-skin-for-suzuka-circuit-by-reboot-team.71936/"
+      ]
+    },
+    {
+      "name": "Rich Summer",
+      "authors": ["TheNuvolari"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/rich-summer-skin-for-suzuka-circuit-by-reboot-team.52065/"
+      ]
+    }
+  ],
+  "camtools": []
+}

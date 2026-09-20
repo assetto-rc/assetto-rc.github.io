@@ -1,0 +1,34 @@
+{
+  "name": "Sachsenring",
+  "releases": [
+    {
+      "name": "Sachsenring",
+      "authors": ["Gunnar333"],
+      "lengthKm": 3.6,
+      "pits": 32,
+      "layouts": 4,
+      "links": [
+        "https://www.overtake.gg/downloads/sachsenring-2022.41511/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "F1 2022 Track Extension",
+      "authors": ["jonniedesigns"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/sachsenring-f1-2022-track-extension.50209/"
+      ]
+    },
+    {
+      "name": "Faster AI Line",
+      "authors": ["dbeck110"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/sachsenring-fast-ai.72002/"
+      ]
+    }
+  ],
+  "camtools": []
+}

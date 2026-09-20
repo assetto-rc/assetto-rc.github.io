@@ -1,0 +1,26 @@
+{
+  "name": "Circuit Antoine Schmit",
+  "releases": [
+    {
+      "name": "Circuit Antoine Schmit",
+      "authors": ["GutBomb"],
+      "lengthKm": 5.05,
+      "pits": 16,
+      "layouts": 1,
+      "links": [
+        "https://www.overtake.gg/downloads/circuit-antoine-schmit.43086/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Replay Cams",
+      "authors": ["GTAce"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/replay-cams-for-circuit-antoine-schmit-gb_gedinne.44308/"
+      ]
+    }
+  ],
+  "camtools": []
+}

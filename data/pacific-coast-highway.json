@@ -1,0 +1,39 @@
+{
+  "name": "Pacific Coast Highway",
+  "releases": [
+    {
+      "name": "Pacific Coast Highway",
+      "authors": ["Phoenix77"],
+      "lengthKm": 23,
+      "pits": 70,
+      "layouts": 3,
+      "links": ["https://www.overtake.gg/downloads/pacific-coast.12087/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Replay Cams",
+      "authors": ["dodz27"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/pacific-coast-trackcams.14037/"
+      ]
+    },
+    {
+      "name": "Enhanced CM Skin",
+      "authors": ["Alexandr66"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/pacific-coast-highway-enhanced-cm-skin.46827/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["sebadou08"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-pacific-coast-1-0-northbound.46558/"
+      ]
+    }
+  ]
+}

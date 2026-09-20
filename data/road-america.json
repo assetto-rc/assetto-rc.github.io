@@ -1,0 +1,117 @@
+{
+  "name": "Road America",
+  "releases": [
+    {
+      "name": "Road America",
+      "authors": ["LilSki"],
+      "lengthKm": 6.5,
+      "pits": 43,
+      "layouts": 2,
+      "links": [
+        "https://www.overtake.gg/downloads/road-america.32732/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "VAO",
+      "authors": ["MC-XXXX"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-vao.59235/"
+      ]
+    },
+    {
+      "name": "Faster AI Line",
+      "authors": ["parrilla"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-faster-ai.61520/"
+      ]
+    },
+    {
+      "name": "51 Pits Layout",
+      "authors": ["StonksforKonks"],
+      "kind": "layout",
+      "links": [
+        "https://www.overtake.gg/downloads/lilski-road-america-51-pits-addon.76315/"
+      ]
+    },
+    {
+      "name": "Replay Cameras",
+      "authors": ["Black Wagtail"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-cameras.35672/"
+      ]
+    },
+    {
+      "name": "TV IMSA 2019 & Static Cameras",
+      "authors": ["FFF789"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-tv-imsa-2019-and-tv-static-cameras.32758/"
+      ]
+    },
+    {
+      "name": "Complete Texture Update",
+      "authors": ["ClimaxF1"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/complete-texture-update-for-road-america.70524/"
+      ]
+    },
+    {
+      "name": "IndyCar 2021",
+      "authors": ["Daniel Paez"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-2021-indy-car-track-skin.43414/"
+      ]
+    },
+    {
+      "name": "IndyCar 2022",
+      "authors": ["Daniel Paez"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-indycar-2022-track-skin.51678/"
+      ]
+    },
+    {
+      "name": "NASCAR 2021",
+      "authors": ["Daniel Paez"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-2021-nascar-track-skin.43682/"
+      ]
+    },
+    {
+      "name": "IMSA 2019 Billboards",
+      "authors": ["Xedrox"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/lilski-road-america-billboards.33800/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["chas1723"],
+      "links": [
+        "https://www.overtake.gg/downloads/road-america-camtool-cameras.54275/"
+      ]
+    },
+    {
+      "authors": ["johnybilly"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-replay-camera-set-road-america.38232/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/lilski-road-america-camtool-replay.32739/"
+      ]
+    }
+  ]
+}

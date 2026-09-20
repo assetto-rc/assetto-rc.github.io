@@ -1,0 +1,18 @@
+{
+  "name": "Port Newark",
+  "releases": [
+    {
+      "name": "Port Newark",
+      "authors": ["Reboot Team"],
+      "lengthKm": 4.1,
+      "pits": 42,
+      "layouts": 2,
+      "links": [
+        "https://sharemods.com/rvtpba7mzk49/rt_port_newark.7z.html",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [],
+  "camtools": []
+}

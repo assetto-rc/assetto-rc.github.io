@@ -1,0 +1,38 @@
+{
+  "name": "Kyalami Grand Prix Circuit",
+  "releases": [
+    {
+      "name": "Kyalami Grand Prix Circuit",
+      "authors": ["Prototype"],
+      "lengthKm": 4.5,
+      "pits": 30,
+      "layouts": 3,
+      "links": ["https://www.overtake.gg/downloads/kyalami-2016.29786/"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Faster AI Line",
+      "authors": ["dbeck110"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/kyalami-grand-prix-circuit-fast-ai.71461/"
+      ]
+    },
+    {
+      "name": "Replay Cams",
+      "authors": ["Black Wagtail"],
+      "kind": "camera",
+      "links": ["https://www.overtake.gg/downloads/kyalami-2016-cameras.30827/"]
+    },
+    {
+      "name": "Kyalami F1 1992-1993 South African GP",
+      "authors": ["zthall96"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/kyalami-2016-f1-1992-1993-south-african-gp-track-skin.55785/"
+      ]
+    }
+  ],
+  "camtools": []
+}

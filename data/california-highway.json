@@ -1,0 +1,18 @@
+{
+  "name": "California Highway",
+  "releases": [
+    {
+      "name": "California Highway",
+      "authors": ["Reboot Team"],
+      "lengthKm": 20.6,
+      "pits": 16,
+      "layouts": 3,
+      "links": [
+        "https://www.mediafire.com/file/pkgf0bksgib8yn0/rt_california_highway.7z/",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [],
+  "camtools": []
+}

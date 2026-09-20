@@ -1,0 +1,79 @@
+{
+  "name": "Okayama International Circuit",
+  "releases": [
+    {
+      "name": "Okayama International Circuit",
+      "authors": ["Mitja Bonca"],
+      "lengthKm": 3.7,
+      "pits": 36,
+      "layouts": 3,
+      "links": [
+        "https://www.overtake.gg/downloads/okayama-international-circuit.15846/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Okayama 2020 Hotfix",
+      "authors": ["arixant"],
+      "kind": "visual",
+      "links": ["https://www.overtake.gg/downloads/okayama-2020.26796/"]
+    },
+    {
+      "name": "RainFX",
+      "authors": ["Cozy61"],
+      "kind": "visual",
+      "links": [
+        "https://www.overtake.gg/downloads/rainfx-for-zolder-2017-and-okayama-circuits.39243/"
+      ]
+    },
+    {
+      "name": "Kart Layouts",
+      "authors": ["alekabul"],
+      "kind": "layout",
+      "links": ["https://www.overtake.gg/downloads/okayama-kart-layouts.28623/"]
+    },
+    {
+      "name": "Real TV 1994 Pacific GP F1 Replay Cameras",
+      "authors": ["Gregz0r"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/okayama-ti-circuit-aida-real-tv-1994-pacific-gp-f1-replay-cameras-v1-0.40895/"
+      ]
+    },
+    {
+      "name": "AI Fix",
+      "authors": ["Itcars"],
+      "kind": "ai",
+      "links": ["https://www.overtake.gg/downloads/okayama-ai-fix.17135/"]
+    },
+    {
+      "name": "Early Spring",
+      "authors": ["TheNuvolari"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/early-spring-skin-for-okayama-international-circuit.52535/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/okayama-camtool-replay.62297/"
+      ]
+    },
+    {
+      "authors": ["ckkjw398"],
+      "links": [
+        "https://www.overtake.gg/downloads/okayama-super-gt-camtool.30418/"
+      ]
+    },
+    {
+      "authors": ["ckkjw398"],
+      "links": [
+        "https://www.overtake.gg/downloads/okayama-pacific-gp-camtool.30419/"
+      ]
+    }
+  ]
+}

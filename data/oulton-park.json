@@ -1,0 +1,56 @@
+{
+  "name": "Oulton Park",
+  "releases": [
+    {
+      "name": "Oulton Park",
+      "authors": ["Reboot Team"],
+      "lengthKm": 4.3,
+      "pits": 34,
+      "layouts": 5,
+      "links": [
+        "https://www.mediafire.com/file/hpdqaosz52nwvv9/rt_oulton_park_1.7.7z/file",
+        "https://www.patreon.com/posts/reboot-team-list-99970979"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Skin & Faster AI Line",
+      "authors": ["morizottom"],
+      "kind": "ai",
+      "links": [
+        "https://www.overtake.gg/downloads/new-skin-and-faster-ai-line-for-oulton-park-by-reboot-team.59295/"
+      ]
+    },
+    {
+      "name": "Early 1960s",
+      "authors": ["shock_"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/rt-oulton-park-early-1960s-skin.65201/"
+      ]
+    },
+    {
+      "name": "British GT",
+      "authors": ["morizottom"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/oulton-park-british-gt-skin.67594/"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/rt-oulton-park-camtool-replay.58936/"
+      ]
+    },
+    {
+      "authors": ["Dkn001"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-replay-for-rt-oulton-park.58832/"
+      ]
+    }
+  ]
+}
