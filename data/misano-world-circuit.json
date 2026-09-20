@@ -2,7 +2,6 @@
   "name": "Misano World Circuit",
   "releases": [
     {
-      "name": "Misano World Circuit",
       "authors": ["Reboot Team"],
       "lengthKm": 4,
       "pits": 38,

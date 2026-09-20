@@ -3,7 +3,6 @@
   "releases": [
     {
       "id": "rize",
-      "name": "Hakone Turnpike",
       "authors": ["RiZe"],
       "lengthKm": 8.3,
       "pits": 56,
@@ -12,7 +11,6 @@
     },
     {
       "id": "ecqt",
-      "name": "Hakone Turnpike",
       "authors": ["ECQT"],
       "lengthKm": 7.2,
       "pits": 20,

@@ -2,7 +2,6 @@
   "name": "Port Newark",
   "releases": [
     {
-      "name": "Port Newark",
       "authors": ["Reboot Team"],
       "lengthKm": 4.1,
       "pits": 42,

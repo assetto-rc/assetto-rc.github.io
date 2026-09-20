@@ -2,7 +2,6 @@
   "name": "Chicago Street Circuit",
   "releases": [
     {
-      "name": "Chicago Street Circuit",
       "authors": ["Reboot Team"],
       "lengthKm": 5,
       "pits": 30,

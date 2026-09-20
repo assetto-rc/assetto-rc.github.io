@@ -1,4 +1,4 @@
-//v1
+// src/schemas/track.ts
 import { z } from "astro/zod";
 
 export const resourceKindEnum = z.enum([
@@ -18,7 +18,7 @@ export const releaseSchema = z.object({
     .string()
     .regex(/^[a-z0-9-]+$/, "Release ID must be kebab-case")
     .optional(),
-  name: z.string().min(1),
+  label: z.string().min(1).optional(),
   authors: z.array(z.string().min(1)).min(1),
   lengthKm: z.number().positive().optional(),
   pits: z.number().int().positive().optional(),
@@ -36,7 +36,7 @@ export const resourceSchema = z.object({
 
 export const camtoolSchema = z.object({
   authors: z.array(z.string().min(1)).min(1),
-  layout: z.string().min(1).optional(),
+  label: z.string().min(1).optional(),
   for: z.array(z.string()).optional(),
   links: z.array(linkSchema).min(1),
 });
@@ -52,7 +52,7 @@ export const trackEntrySchema = z
     const isMultiRelease = entry.releases.length > 1;
     const releaseIds = new Set<string>();
 
-    //validate releases
+    // validate releases
     for (const [index, release] of entry.releases.entries()) {
       if (isMultiRelease) {
         if (!release.id) {
@@ -74,7 +74,7 @@ export const trackEntrySchema = z
       }
     }
 
-    //validate resources
+    // validate resources
     for (const [index, resource] of entry.resources.entries()) {
       if (isMultiRelease) {
         if (!resource.for || resource.for.length === 0) {
@@ -98,7 +98,7 @@ export const trackEntrySchema = z
       }
     }
 
-    //validate camtools
+    // validate camtools
     for (const [index, camtool] of entry.camtools.entries()) {
       if (isMultiRelease) {
         if (!camtool.for || camtool.for.length === 0) {
@@ -126,3 +126,5 @@ export const trackEntrySchema = z
 export type TrackEntry = z.infer<typeof trackEntrySchema>;
 export type ResourceKind = z.infer<typeof resourceKindEnum>;
 export type Camtool = z.infer<typeof camtoolSchema>;
+export type Release = z.infer<typeof releaseSchema>;
+export type Resource = z.infer<typeof resourceSchema>;

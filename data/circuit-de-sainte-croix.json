@@ -2,7 +2,6 @@
   "name": "Circuit de Sainte-Croix",
   "releases": [
     {
-      "name": "Circuit de Sainte-Croix",
       "authors": ["Reboot Team"],
       "lengthKm": 9.4,
       "pits": 24,

@@ -2,7 +2,6 @@
   "name": "Autodromo Lago Maggiore",
   "releases": [
     {
-      "name": "Autodromo Lago Maggiore",
       "authors": ["Reboot Team"],
       "lengthKm": 5.8,
       "pits": 48,

@@ -3,7 +3,7 @@
   "releases": [
     {
       "id": "2018",
-      "name": "Donington Park 2018",
+      "label": "2018",
       "authors": ["Brun"],
       "lengthKm": 4,
       "pits": 24,
@@ -12,7 +12,7 @@
     },
     {
       "id": "2023",
-      "name": "Donington Park 2023",
+      "label": "2023",
       "authors": ["Brun", "RacingJoe"],
       "lengthKm": 4,
       "pits": 40,

@@ -24,7 +24,7 @@ const sortedResources = [...track.resources].sort((a, b) =>
   <section class="section-block">
     <SectionHeader title="releases" count={track.releases.length} />
     <div class="release-list">
-      {track.releases.map((release) => <ReleaseRow release={release} />)}
+      {track.releases.map((release) => <ReleaseRow release={release} trackName={track.name} />)}
     </div>
   </section>
 

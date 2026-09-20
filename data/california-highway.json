@@ -2,7 +2,6 @@
   "name": "California Highway",
   "releases": [
     {
-      "name": "California Highway",
       "authors": ["Reboot Team"],
       "lengthKm": 20.6,
       "pits": 16,

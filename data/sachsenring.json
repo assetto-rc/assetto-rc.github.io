@@ -2,7 +2,6 @@
   "name": "Sachsenring",
   "releases": [
     {
-      "name": "Sachsenring",
       "authors": ["Gunnar333"],
       "lengthKm": 3.6,
       "pits": 32,

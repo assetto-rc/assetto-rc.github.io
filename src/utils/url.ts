@@ -11,6 +11,8 @@ export function getHostLabel(url: string): string {
       'patreon.com': 'Patreon',
       'gumroad.com': 'Gumroad',
       'github.com': 'GitHub',
+      'ko-fi.com': 'Ko-fi',
+      'sharemods.com': 'ShareMods',
     };
 
     for (const [domain, label] of Object.entries(map)) {

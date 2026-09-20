@@ -2,8 +2,7 @@
   "name": "Ascari Race Resort",
   "releases": [
     {
-      "name": "Ascari Race Resort",
-      "authors": ["shin956", "Mike08", "Nukedrop"],
+      "authors": ["shin956", "Mike08", "NukeDrop"],
       "lengthKm": 5.3,
       "pits": 24,
       "layouts": 4,

@@ -2,7 +2,6 @@
   "name": "Kyalami Grand Prix Circuit",
   "releases": [
     {
-      "name": "Kyalami Grand Prix Circuit",
       "authors": ["Prototype"],
       "lengthKm": 4.5,
       "pits": 30,
