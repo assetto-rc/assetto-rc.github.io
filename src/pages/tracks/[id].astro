@@ -14,6 +14,9 @@ export async function getStaticPaths() {
 const { track } = Astro.props;
 ---
 
-<BaseLayout title={track.name}>
+<BaseLayout 
+  title={track.name}
+  description={`Catalog and resources for ${track.name}.`}
+>
   <TrackDetail track={track} />
 </BaseLayout>
