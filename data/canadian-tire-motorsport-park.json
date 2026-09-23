@@ -3,43 +3,13 @@
   "releases": [
     {
       "authors": ["John R"],
-      "lengthKm": 3.9,
+      "lengthKm": 4.0,
       "pits": 37,
       "layouts": 1,
-      "links": ["https://ko-fi.com/s/c850cfd1d5"]
+      "links": ["https://ko-fi.com/s/c55bedf32d"]
     }
   ],
   "resources": [
-    {
-      "name": "ext_config & Replay Cams",
-      "authors": ["Manian"],
-      "kind": "visual",
-      "links": [
-        "https://www.overtake.gg/downloads/ext_config-addition-tv-cams-for-mosport-d-d-t-by-johnr777.50333/"
-      ]
-    },
-    {
-      "name": "Faster AI Line",
-      "authors": ["dbeck110"],
-      "kind": "ai",
-      "links": [
-        "https://www.overtake.gg/downloads/canadian-tire-motorsport-park-mosport-fast-ai.71487/"
-      ]
-    },
-    {
-      "name": "Replay Cams",
-      "authors": ["Leonardo Ratafiá"],
-      "kind": "camera",
-      "links": [
-        "https://www.overtake.gg/downloads/tv-cameras-for-mosport.24713/"
-      ]
-    },
-    {
-      "name": "IMSA 2022",
-      "authors": ["morizottom"],
-      "kind": "skin",
-      "links": ["https://www.overtake.gg/downloads/mosport-imsa-skin.61656/"]
-    },
     {
       "name": "60s Reskin Grid Layout",
       "authors": ["shock_"],
@@ -49,12 +19,5 @@
       ]
     }
   ],
-  "camtools": [
-    {
-      "authors": ["chas1723"],
-      "links": [
-        "https://www.overtake.gg/downloads/mosport-camtool-cameras.54155/"
-      ]
-    }
-  ]
+  "camtools": []
 }

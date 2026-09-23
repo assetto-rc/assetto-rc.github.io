@@ -16,7 +16,7 @@
     {
       "name": "Skin & Faster AI Line",
       "authors": ["morizottom"],
-      "kind": "ai",
+      "kind": "skin",
       "links": [
         "https://www.overtake.gg/downloads/new-skin-and-faster-ai-line-for-oulton-park-by-reboot-team.59295/"
       ]
@@ -24,7 +24,7 @@
     {
       "name": "Early 1960s",
       "authors": ["shock_"],
-      "kind": "skin",
+      "kind": "layout",
       "links": [
         "https://www.overtake.gg/downloads/rt-oulton-park-early-1960s-skin.65201/"
       ]

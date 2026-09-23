@@ -1,0 +1,66 @@
+{
+  "name": "Gunma Cycle Sports Center",
+  "releases": [
+    {
+      "authors": ["antudusun"],
+      "lengthKm": 5.9,
+      "pits": 32,
+      "layouts": 3,
+      "links": [
+        "https://www.overtake.gg/downloads/gunma-cycle-sports-center-aka-gunsai-touge-new-scratch-made.32941/"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "name": "Replay Cams",
+      "authors": ["Leonardo Ratafiá"],
+      "kind": "camera",
+      "links": [
+        "https://www.overtake.gg/downloads/tv-camera-for-gunsai-touge.32972/"
+      ]
+    },
+    {
+      "name": "Rich Summer",
+      "authors": ["TheNuvolari"],
+      "kind": "skin",
+      "links": [
+        "https://www.overtake.gg/downloads/rich-summer-skin-for-gunsai-touge-gunma-cycle-sports-center.54896/"
+      ]
+    },
+    {
+      "name": "C13 Refresh",
+      "authors": ["C13Automotive"],
+      "kind": "skin",
+      "links": [
+        "https://www.patreon.com/C13Automotive/posts/gunsai-touge-c13-165079606"
+      ]
+    }
+  ],
+  "camtools": [
+    {
+      "authors": ["Atrupelador"],
+      "links": [
+        "https://www.overtake.gg/downloads/camtool-for-gunsai-touge-aka-gunma-cycle-sports-center.56989/"
+      ]
+    },
+    {
+      "authors": ["rambokim"],
+      "links": [
+        "https://www.overtake.gg/downloads/gunma-hot-version-camtool-replay.52708/"
+      ]
+    },
+    {
+      "authors": ["NED4TG"],
+      "links": [
+        "https://www.overtake.gg/downloads/gunsai-touge-camtool2-tv-cam.46369/"
+      ]
+    },
+    {
+      "authors": ["Aleroma"],
+      "links": [
+        "https://www.overtake.gg/downloads/gunma-cycle-sports-center-camtool.33303/"
+      ]
+    }
+  ]
+}
