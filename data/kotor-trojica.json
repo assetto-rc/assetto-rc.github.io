@@ -1,13 +1,11 @@
 {
   "name": "Kotor-Trojica",
-  "releases": [
-    {
-      "authors": ["Lemax"],
-      "lengthKm": 4,
-      "pits": 36,
-      "layouts": 2,
-      "links": ["https://www.overtake.gg/downloads/kotor-trojica.50162/"]
-    }
+  "authors": ["Lemax"],
+  "lengthKm": 4.0,
+  "pits": 36,
+  "layouts": 2,
+  "links": [
+    "https://www.overtake.gg/downloads/kotor-trojica.50162/"
   ],
   "resources": [
     {

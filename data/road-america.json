@@ -1,24 +1,18 @@
 {
   "name": "Road America",
-  "releases": [
-    {
-      "authors": ["LilSki"],
-      "lengthKm": 6.5,
-      "pits": 43,
-      "layouts": 2,
-      "links": [
-        "https://www.overtake.gg/downloads/road-america.32732/"
-      ]
-    }
+  "authors": ["LilSki"],
+  "lengthKm": 6.5,
+  "pits": 43,
+  "layouts": 2,
+  "links": [
+    "https://www.overtake.gg/downloads/road-america.32732/"
   ],
   "resources": [
     {
       "name": "VAO",
       "authors": ["MC-XXXX"],
       "kind": "visual",
-      "links": [
-        "https://www.overtake.gg/downloads/road-america-vao.59235/"
-      ]
+      "links": ["https://www.overtake.gg/downloads/road-america-vao.59235/"]
     },
     {
       "name": "Faster AI Line",
@@ -40,9 +34,7 @@
       "name": "Replay Cameras",
       "authors": ["Black Wagtail"],
       "kind": "camera",
-      "links": [
-        "https://www.overtake.gg/downloads/road-america-cameras.35672/"
-      ]
+      "links": ["https://www.overtake.gg/downloads/road-america-cameras.35672/"]
     },
     {
       "name": "TV IMSA 2019 & Static Cameras",

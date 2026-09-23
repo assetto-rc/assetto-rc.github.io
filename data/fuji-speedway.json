@@ -1,16 +1,12 @@
 {
   "name": "Fuji Speedway",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 4.5,
-      "pits": 36,
-      "layouts": 2,
-      "links": [
-        "https://www.mediafire.com/file/88lvhn3cu0iv7bb/rt_fuji_speedway.7z/",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 4.5,
+  "pits": 36,
+  "layouts": 2,
+  "links": [
+    "https://www.mediafire.com/file/88lvhn3cu0iv7bb/rt_fuji_speedway.7z/",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [],
   "camtools": []

@@ -1,15 +1,11 @@
 {
   "name": "Hockenheimring",
-  "releases": [
-    {
-      "authors": ["VheEth"],
-      "lengthKm": 4.6,
-      "pits": 26,
-      "layouts": 4,
-      "links": [
-        "https://www.mediafire.com/file/fnaw8e4lsq76l2k/vhe_hockenheim_1.3.rar/file"
-      ]
-    }
+  "authors": ["VheEth"],
+  "lengthKm": 4.6,
+  "pits": 26,
+  "layouts": 4,
+  "links": [
+    "https://www.mediafire.com/file/fnaw8e4lsq76l2k/vhe_hockenheim_1.3.rar/file"
   ],
   "resources": [
     {

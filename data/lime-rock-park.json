@@ -1,16 +1,12 @@
 {
   "name": "Lime Rock Park",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 2.4,
-      "pits": 35,
-      "layouts": 2,
-      "links": [
-        "https://www.mediafire.com/file/8pnw5ceo5cx7y09/rt_lime_rock_park.7z/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 2.4,
+  "pits": 35,
+  "layouts": 2,
+  "links": [
+    "https://www.mediafire.com/file/8pnw5ceo5cx7y09/rt_lime_rock_park.7z/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

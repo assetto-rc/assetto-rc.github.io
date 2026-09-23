@@ -1,15 +1,12 @@
 {
   "name": "Bannochbrae",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 7.2,
-      "pits": 40,
-      "layouts": 7,
-      "links": [
-        "https://www.mediafire.com/file/bb7hl4xqlsyaz4z/rt_bannochbrae_1.5.7z"
-      ]
-    }
+  "folder": "rt_bannochbrae",
+  "authors": ["Reboot Team"],
+  "lengthKm": 7.2,
+  "pits": 40,
+  "layouts": 7,
+  "links": [
+    "https://www.mediafire.com/file/bb7hl4xqlsyaz4z/rt_bannochbrae_1.5.7z"
   ],
   "resources": [
     {

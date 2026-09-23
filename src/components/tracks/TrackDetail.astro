@@ -1,7 +1,7 @@
 ---
 import type { TrackEntry } from "../../schemas/track";
+import TrackHeader from "./TrackHeader.astro";
 import SectionHeader from "./SectionHeader.astro";
-import ReleaseRow from "./ReleaseRow.astro";
 import ResourceCard from "./ResourceCard.astro";
 import ResourcePlaceholder from "./ResourcePlaceholder.astro";
 import CamtoolRow from "./CamtoolRow.astro";
@@ -12,30 +12,17 @@ interface Props {
 
 const { track } = Astro.props;
 const sortedResources = [...track.resources].sort((a, b) =>
-  a.name.localeCompare(b.name),
+  a.name.localeCompare(b.name)
 );
 ---
 
 <article class="track-index">
-  <header class="track-header">
-    <h1 class="track-title">{track.name}</h1>
-  </header>
-
-  <section class="section-block">
-    <SectionHeader title="releases" count={track.releases.length} />
-    <div class="release-list">
-      {track.releases.map((release) => <ReleaseRow release={release} trackName={track.name} />)}
-    </div>
-  </section>
+  <TrackHeader track={track} />
 
   <section class="section-block">
     <SectionHeader title="resources" count={sortedResources.length} />
     <div class="resource-grid">
-      {
-        sortedResources.map((resource) => (
-          <ResourceCard resource={resource} releases={track.releases} />
-        ))
-      }
+      {sortedResources.map((resource) => <ResourceCard resource={resource} />)}
       <ResourcePlaceholder trackName={track.name} />
     </div>
   </section>
@@ -59,23 +46,10 @@ const sortedResources = [...track.resources].sort((a, b) =>
     padding: 3rem 0 5rem;
   }
 
-  .track-header {
-    margin-bottom: 2.5rem;
-  }
-
-  .track-title {
-    font-size: 2.25rem;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-    color: var(--text-primary);
-    margin: 0;
-  }
-
   .section-block {
     margin-bottom: 3.5rem;
   }
 
-  .release-list,
   .camtool-list {
     display: flex;
     flex-direction: column;

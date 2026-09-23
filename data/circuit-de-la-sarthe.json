@@ -1,16 +1,12 @@
 {
   "name": "Circuit de la Sarthe",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 13.6,
-      "pits": 70,
-      "layouts": 5,
-      "links": [
-        "https://www.mediafire.com/file/knt0n0s1do95xac/sx_lemans_v3.1.7z",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 13.6,
+  "pits": 70,
+  "layouts": 5,
+  "links": [
+    "https://www.mediafire.com/file/knt0n0s1do95xac/sx_lemans_v3.1.7z",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

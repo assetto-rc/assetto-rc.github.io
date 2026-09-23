@@ -1,13 +1,11 @@
 {
   "name": "Semetin",
-  "releases": [
-    {
-      "authors": ["SIM TRAXX"],
-      "lengthKm": 11.7,
-      "pits": 30,
-      "layouts": 3,
-      "links": ["https://www.overtake.gg/downloads/semetin-czechia.10782/"]
-    }
+  "authors": ["SIM TRAXX"],
+  "lengthKm": 11.7,
+  "pits": 30,
+  "layouts": 3,
+  "links": [
+    "https://www.overtake.gg/downloads/semetin-czechia.10782/"
   ],
   "resources": [
     {

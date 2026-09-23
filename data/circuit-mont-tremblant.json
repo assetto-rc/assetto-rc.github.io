@@ -1,16 +1,12 @@
 {
   "name": "Circuit Mont-Tremblant",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 4.3,
-      "pits": 30,
-      "layouts": 8,
-      "links": [
-        "https://www.mediafire.com/file/vt7mb9e0o02puwm/rt_mont_tremblant.7z",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 4.3,
+  "pits": 30,
+  "layouts": 8,
+  "links": [
+    "https://www.mediafire.com/file/vt7mb9e0o02puwm/rt_mont_tremblant.7z",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [],
   "camtools": []

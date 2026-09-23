@@ -1,13 +1,11 @@
 {
   "name": "Pacific Coast Highway",
-  "releases": [
-    {
-      "authors": ["Phoenix77"],
-      "lengthKm": 23,
-      "pits": 70,
-      "layouts": 3,
-      "links": ["https://www.overtake.gg/downloads/pacific-coast.12087/"]
-    }
+  "authors": ["Phoenix77"],
+  "lengthKm": 23.0,
+  "pits": 70,
+  "layouts": 3,
+  "links": [
+    "https://www.overtake.gg/downloads/pacific-coast.12087/"
   ],
   "resources": [
     {

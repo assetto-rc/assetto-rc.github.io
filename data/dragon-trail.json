@@ -1,15 +1,11 @@
 {
   "name": "Dragon Trail",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 5.2,
-      "pits": 28,
-      "layouts": 6,
-      "links": [
-        "https://www.mediafire.com/file/6bf5h4ul4x62e33/gt_dragontrail.7z/"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 5.2,
+  "pits": 28,
+  "layouts": 6,
+  "links": [
+    "https://www.mediafire.com/file/6bf5h4ul4x62e33/gt_dragontrail.7z/"
   ],
   "resources": [
     {

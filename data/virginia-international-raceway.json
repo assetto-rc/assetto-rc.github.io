@@ -1,15 +1,11 @@
 {
   "name": "Virginia International Raceway",
-  "releases": [
-    {
-      "authors": ["dazzyb2k3"],
-      "lengthKm": 5.2,
-      "pits": 33,
-      "layouts": 7,
-      "links": [
-        "https://www.overtake.gg/downloads/virginia-international-raceway.11892/"
-      ]
-    }
+  "authors": ["dazzyb2k3"],
+  "lengthKm": 5.2,
+  "pits": 33,
+  "layouts": 7,
+  "links": [
+    "https://www.overtake.gg/downloads/virginia-international-raceway.11892/"
   ],
   "resources": [
     {

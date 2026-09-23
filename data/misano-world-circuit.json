@@ -1,16 +1,12 @@
 {
   "name": "Misano World Circuit",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 4,
-      "pits": 38,
-      "layouts": 1,
-      "links": [
-        "https://mega.nz/file/rZF1mLBZ#yWkoxQDGZkhLpp9b5Th5qDxH4VKrMr_qcUYJsTLFb7g",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 4.0,
+  "pits": 38,
+  "layouts": 1,
+  "links": [
+    "https://mega.nz/file/rZF1mLBZ#yWkoxQDGZkhLpp9b5Th5qDxH4VKrMr_qcUYJsTLFb7g",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

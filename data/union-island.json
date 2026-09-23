@@ -1,13 +1,11 @@
 {
   "name": "Union Island",
-  "releases": [
-    {
-      "authors": ["Ben O'Bro"],
-      "lengthKm": 33.5,
-      "pits": 45,
-      "layouts": 5,
-      "links": ["https://www.overtake.gg/downloads/union-island.45276/"]
-    }
+  "authors": ["Ben O'Bro"],
+  "lengthKm": 33.5,
+  "pits": 45,
+  "layouts": 5,
+  "links": [
+    "https://www.overtake.gg/downloads/union-island.45276/"
   ],
   "resources": [
     {

@@ -1,16 +1,12 @@
 {
   "name": "Suzuka Circuit",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 5.8,
-      "pits": 36,
-      "layouts": 3,
-      "links": [
-        "https://www.mediafire.com/file/idkqua4w4c54lb8/rt_suzuka.7z/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 5.8,
+  "pits": 36,
+  "layouts": 3,
+  "links": [
+    "https://www.mediafire.com/file/idkqua4w4c54lb8/rt_suzuka.7z/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

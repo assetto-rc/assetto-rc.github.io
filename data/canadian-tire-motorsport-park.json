@@ -1,13 +1,11 @@
 {
   "name": "Canadian Tire Motorsport Park",
-  "releases": [
-    {
-      "authors": ["John R"],
-      "lengthKm": 4.0,
-      "pits": 37,
-      "layouts": 1,
-      "links": ["https://ko-fi.com/s/c55bedf32d"]
-    }
+  "authors": ["John R"],
+  "lengthKm": 4.0,
+  "pits": 37,
+  "layouts": 1,
+  "links": [
+    "https://ko-fi.com/s/c55bedf32d"
   ],
   "resources": [
     {

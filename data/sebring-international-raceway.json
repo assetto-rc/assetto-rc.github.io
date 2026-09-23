@@ -1,16 +1,12 @@
 {
   "name": "Sebring International Raceway",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 6,
-      "pits": 32,
-      "layouts": 2,
-      "links": [
-        "https://www.mediafire.com/file/7qdzbbff2npwwie/rt_sebring.7z/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 6.0,
+  "pits": 32,
+  "layouts": 2,
+  "links": [
+    "https://www.mediafire.com/file/7qdzbbff2npwwie/rt_sebring.7z/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

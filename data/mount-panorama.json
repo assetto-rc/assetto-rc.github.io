@@ -1,16 +1,12 @@
 {
   "name": "Mount Panorama",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 6.2,
-      "pits": 36,
-      "layouts": 1,
-      "links": [
-        "http://www.mediafire.com/file/q0fjrwil59d8ig7/rt_bathurst.rar/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 6.2,
+  "pits": 36,
+  "layouts": 1,
+  "links": [
+    "http://www.mediafire.com/file/q0fjrwil59d8ig7/rt_bathurst.rar/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

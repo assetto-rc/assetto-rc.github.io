@@ -1,16 +1,13 @@
 {
   "name": "Autodromo Lago Maggiore",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 5.8,
-      "pits": 48,
-      "layouts": 8,
-      "links": [
-        "https://www.mediafire.com/file/edi2j9fosv5dyo2/gt_autodromo_lago_maggiore_v1.3.7z/",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "folder": "gt_autodromo_lago_maggiore",
+  "authors": ["Reboot Team"],
+  "lengthKm": 5.8,
+  "pits": 48,
+  "layouts": 8,
+  "links": [
+    "https://www.mediafire.com/file/edi2j9fosv5dyo2/gt_autodromo_lago_maggiore_v1.3.7z/",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [],
   "camtools": []

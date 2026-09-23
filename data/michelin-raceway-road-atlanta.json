@@ -1,13 +1,11 @@
 {
   "name": "Michelin Raceway Road Atlanta",
-  "releases": [
-    {
-      "authors": ["John R"],
-      "lengthKm": 4,
-      "pits": 52,
-      "layouts": 5,
-      "links": ["https://ko-fi.com/s/0b7b682d4a"]
-    }
+  "authors": ["John R"],
+  "lengthKm": 4.0,
+  "pits": 52,
+  "layouts": 5,
+  "links": [
+    "https://ko-fi.com/s/0b7b682d4a"
   ],
   "resources": [
     {

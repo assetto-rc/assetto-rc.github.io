@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
-const allTracks = await getCollection('tracks');
+const allTracks = await getCollection("tracks");
 const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
 ---
 
@@ -14,24 +14,23 @@ const tracks = allTracks.sort((a, b) => a.data.name.localeCompare(b.data.name));
     </header>
 
     <div class="track-list">
-      {tracks.map((track) => {
-        const releaseCount = track.data.releases.length;
-        const resourceCount = track.data.resources.length;
-        const camtoolCount = track.data.camtools.length;
-
-        return (
+      {
+        tracks.map((track) => (
           <a href={`/tracks/${track.id}/`} class="track-row">
             <div class="track-info">
               <span class="track-name">{track.data.name}</span>
               <span class="track-meta">
-                {releaseCount} {releaseCount === 1 ? 'release' : 'releases'} &nbsp;·&nbsp;
-                {resourceCount} {resourceCount === 1 ? 'resource' : 'resources'}
-                {camtoolCount > 0 && ` · ${camtoolCount} ${camtoolCount === 1 ? 'camtool' : 'camtools'}`}
+                {[
+                  track.data.authors?.join(", "),
+                  track.data.lengthKm && `${track.data.lengthKm} km`,
+                ]
+                  .filter(Boolean)
+                  .join(" · ")}
               </span>
             </div>
           </a>
-        );
-      })}
+        ))
+      }
     </div>
   </div>
 </BaseLayout>

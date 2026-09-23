@@ -1,16 +1,12 @@
 {
   "name": "Tandragee 100",
-  "releases": [
-    {
-      "authors": ["NukeDrop"],
-      "lengthKm": 8.5,
-      "pits": 40,
-      "layouts": 2,
-      "links": [
-        "https://www.overtake.gg/downloads/tandragee-100-2023-classic.59333/",
-        "https://www.patreon.com/posts/80827647"
-      ]
-    }
+  "authors": ["NukeDrop"],
+  "lengthKm": 8.5,
+  "pits": 40,
+  "layouts": 2,
+  "links": [
+    "https://www.overtake.gg/downloads/tandragee-100-2023-classic.59333/",
+    "https://www.patreon.com/posts/80827647"
   ],
   "resources": [],
   "camtools": [

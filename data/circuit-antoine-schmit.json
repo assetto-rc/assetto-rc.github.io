@@ -1,15 +1,11 @@
 {
   "name": "Circuit Antoine Schmit",
-  "releases": [
-    {
-      "authors": ["GutBomb"],
-      "lengthKm": 5.05,
-      "pits": 16,
-      "layouts": 1,
-      "links": [
-        "https://www.overtake.gg/downloads/circuit-antoine-schmit.43086/"
-      ]
-    }
+  "authors": ["GutBomb"],
+  "lengthKm": 5.05,
+  "pits": 16,
+  "layouts": 1,
+  "links": [
+    "https://www.overtake.gg/downloads/circuit-antoine-schmit.43086/"
   ],
   "resources": [
     {

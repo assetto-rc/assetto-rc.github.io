@@ -1,15 +1,11 @@
 {
   "name": "Okayama International Circuit",
-  "releases": [
-    {
-      "authors": ["Mitja Bonca"],
-      "lengthKm": 3.7,
-      "pits": 36,
-      "layouts": 3,
-      "links": [
-        "https://www.overtake.gg/downloads/okayama-international-circuit.15846/"
-      ]
-    }
+  "authors": ["Mitja Bonca"],
+  "lengthKm": 3.7,
+  "pits": 36,
+  "layouts": 3,
+  "links": [
+    "https://www.overtake.gg/downloads/okayama-international-circuit.15846/"
   ],
   "resources": [
     {

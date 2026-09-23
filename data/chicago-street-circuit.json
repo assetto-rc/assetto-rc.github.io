@@ -1,16 +1,12 @@
 {
   "name": "Chicago Street Circuit",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 5,
-      "pits": 30,
-      "layouts": 2,
-      "links": [
-        "https://www.mediafire.com/file/ctp5h01a1goqmq1/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 5.0,
+  "pits": 30,
+  "layouts": 2,
+  "links": [
+    "https://www.mediafire.com/file/ctp5h01a1goqmq1/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [],
   "camtools": []

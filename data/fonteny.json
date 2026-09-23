@@ -1,13 +1,11 @@
 {
   "name": "Fonteny",
-  "releases": [
-    {
-      "authors": ["Fat-Alfie"],
-      "lengthKm": 25.8,
-      "pits": 40,
-      "layouts": 4,
-      "links": ["https://www.overtake.gg/downloads/fonteny.30137/"]
-    }
+  "authors": ["Fat-Alfie"],
+  "lengthKm": 25.8,
+  "pits": 40,
+  "layouts": 4,
+  "links": [
+    "https://www.overtake.gg/downloads/fonteny.30137/"
   ],
   "resources": [
     {

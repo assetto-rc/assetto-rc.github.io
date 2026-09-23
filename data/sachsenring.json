@@ -1,15 +1,11 @@
 {
   "name": "Sachsenring",
-  "releases": [
-    {
-      "authors": ["Gunnar333"],
-      "lengthKm": 3.6,
-      "pits": 32,
-      "layouts": 4,
-      "links": [
-        "https://www.overtake.gg/downloads/sachsenring-2022.41511/"
-      ]
-    }
+  "authors": ["Gunnar333"],
+  "lengthKm": 3.6,
+  "pits": 32,
+  "layouts": 4,
+  "links": [
+    "https://www.overtake.gg/downloads/sachsenring-2022.41511/"
   ],
   "resources": [
     {
@@ -24,9 +20,7 @@
       "name": "Faster AI Line",
       "authors": ["dbeck110"],
       "kind": "ai",
-      "links": [
-        "https://www.overtake.gg/downloads/sachsenring-fast-ai.72002/"
-      ]
+      "links": ["https://www.overtake.gg/downloads/sachsenring-fast-ai.72002/"]
     }
   ],
   "camtools": []

@@ -1,13 +1,11 @@
 {
   "name": "Kyalami Grand Prix Circuit",
-  "releases": [
-    {
-      "authors": ["Prototype"],
-      "lengthKm": 4.5,
-      "pits": 30,
-      "layouts": 3,
-      "links": ["https://www.overtake.gg/downloads/kyalami-2016.29786/"]
-    }
+  "authors": ["Prototype"],
+  "lengthKm": 4.5,
+  "pits": 30,
+  "layouts": 3,
+  "links": [
+    "https://www.overtake.gg/downloads/kyalami-2016.29786/"
   ],
   "resources": [
     {

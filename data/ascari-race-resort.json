@@ -1,13 +1,12 @@
 {
   "name": "Ascari Race Resort",
-  "releases": [
-    {
-      "authors": ["shin956", "Mike08", "NukeDrop"],
-      "lengthKm": 5.3,
-      "pits": 24,
-      "layouts": 4,
-      "links": ["https://www.overtake.gg/downloads/ascari-race-resort.55773/"]
-    }
+  "folder": "ascari_race_resort",
+  "authors": ["shin956", "Mike08", "NukeDrop"],
+  "lengthKm": 5.3,
+  "pits": 24,
+  "layouts": 4,
+  "links": [
+    "https://www.overtake.gg/downloads/ascari-race-resort.55773/"
   ],
   "resources": [
     {

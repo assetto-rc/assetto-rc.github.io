@@ -1,62 +1,19 @@
 {
   "name": "Donington Park",
-  "releases": [
-    {
-      "id": "2018",
-      "label": "2018",
-      "authors": ["Brun"],
-      "lengthKm": 4,
-      "pits": 24,
-      "layouts": 2,
-      "links": ["https://www.overtake.gg/downloads/donington-park.3031/"]
-    },
-    {
-      "id": "2023",
-      "label": "2023",
-      "authors": ["Brun", "RacingJoe"],
-      "lengthKm": 4,
-      "pits": 40,
-      "layouts": 4,
-      "links": [
-        "https://www.mediafire.com/file/umyi4s7djvewmqq/doningtonpark2023.7z/file"
-      ]
-    }
+  "authors": ["Brun", "RacingJoe"],
+  "lengthKm": 4.0,
+  "pits": 40,
+  "layouts": 4,
+  "links": [
+    "https://www.mediafire.com/file/umyi4s7djvewmqq/doningtonpark2023.7z/file"
   ],
   "resources": [
     {
-      "name": "Skin & ext_config 0.98",
-      "authors": ["racinjoe013"],
-      "for": ["2018"],
-      "kind": "visual",
-      "links": [
-        "https://www.overtake.gg/downloads/donington-park-2018-skin-ext_config.48748/"
-      ]
-    },
-    {
-      "name": "40 Pitbox Layouts",
-      "authors": ["Paprika"],
-      "for": ["2018"],
-      "kind": "layout",
-      "links": [
-        "https://www.overtake.gg/downloads/donington-park-2018-layout-40-pitboxes.58196/"
-      ]
-    },
-    {
       "name": "Fast AI Line",
       "authors": ["dbeck110"],
-      "for": ["2018", "2023"],
       "kind": "ai",
       "links": [
         "https://www.overtake.gg/downloads/donington-park-fast-ai-line.71966/"
-      ]
-    },
-    {
-      "name": "BTCC 1999",
-      "authors": ["Stephen Bailey"],
-      "for": ["2018"],
-      "kind": "skin",
-      "links": [
-        "https://www.overtake.gg/downloads/btcc-1999-track-skin-for-donington-park-2018.57735/"
       ]
     }
   ],

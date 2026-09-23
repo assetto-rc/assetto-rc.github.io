@@ -1,16 +1,12 @@
 {
   "name": "Daytona International Speedway",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 4.5,
-      "pits": 36,
-      "layouts": 2,
-      "links": [
-        "https://drive.google.com/file/d/1FsmKs8yY2xiLkR-zSlsiFP9E5Ba4dOp2/edit",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "folder": "jr_daytona_2026",
+  "authors": ["John R"],
+  "lengthKm": 5.7,
+  "pits": 61,
+  "layouts": 2,
+  "links": [
+    "https://ko-fi.com/s/9db346245b"
   ],
   "resources": [],
   "camtools": []

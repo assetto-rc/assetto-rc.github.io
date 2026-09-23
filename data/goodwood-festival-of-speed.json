@@ -1,15 +1,11 @@
 {
   "name": "Goodwood Festival of Speed",
-  "releases": [
-    {
-      "authors": ["Gunnar333"],
-      "lengthKm": 1.86,
-      "pits": 30,
-      "layouts": 5,
-      "links": [
-        "https://www.overtake.gg/downloads/goodwood-festival-of-speed-2017.26839/"
-      ]
-    }
+  "authors": ["Gunnar333"],
+  "lengthKm": 1.86,
+  "pits": 30,
+  "layouts": 5,
+  "links": [
+    "https://www.overtake.gg/downloads/goodwood-festival-of-speed-2017.26839/"
   ],
   "resources": [
     {

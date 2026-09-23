@@ -1,16 +1,12 @@
 {
   "name": "Oulton Park",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 4.3,
-      "pits": 34,
-      "layouts": 5,
-      "links": [
-        "https://www.mediafire.com/file/hpdqaosz52nwvv9/rt_oulton_park_1.7.7z/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 4.3,
+  "pits": 34,
+  "layouts": 5,
+  "links": [
+    "https://www.mediafire.com/file/hpdqaosz52nwvv9/rt_oulton_park_1.7.7z/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

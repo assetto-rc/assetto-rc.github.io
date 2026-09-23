@@ -1,16 +1,12 @@
 {
   "name": "Guia Circuit",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 6.1,
-      "pits": 30,
-      "layouts": 1,
-      "links": [
-        "https://www.mediafire.com/file/9y7mwea5b8a9vcb/rt_macau.7z/file",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 6.1,
+  "pits": 30,
+  "layouts": 1,
+  "links": [
+    "https://www.mediafire.com/file/9y7mwea5b8a9vcb/rt_macau.7z/file",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [],
   "camtools": []

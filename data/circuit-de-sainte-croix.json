@@ -1,16 +1,12 @@
 {
   "name": "Circuit de Sainte-Croix",
-  "releases": [
-    {
-      "authors": ["Reboot Team"],
-      "lengthKm": 9.4,
-      "pits": 24,
-      "layouts": 10,
-      "links": [
-        "https://www.mediafire.com/file/rvmyj05in1wve8j/gt_sainte_croix.7z/",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["Reboot Team"],
+  "lengthKm": 9.4,
+  "pits": 24,
+  "layouts": 10,
+  "links": [
+    "https://www.mediafire.com/file/rvmyj05in1wve8j/gt_sainte_croix.7z/",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

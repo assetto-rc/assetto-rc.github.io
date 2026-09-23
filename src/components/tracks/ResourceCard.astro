@@ -1,21 +1,13 @@
 ---
-import type { Resource, Release } from "../../schemas/track";
+import type { Resource } from "../../schemas/track";
 import { getHostLabel } from "../../utils/url";
 
 interface Props {
   resource: Resource;
-  releases: Release[];
 }
 
-const { resource, releases } = Astro.props;
+const { resource } = Astro.props;
 const primaryLink = resource.links[0];
-
-const isSubset =
-  releases.length > 1 &&
-  resource.for &&
-  resource.for.length > 0 &&
-  resource.for.length < releases.length;
-const subsetLabel = isSubset ? `for ${resource.for?.join(" + ")}` : null;
 ---
 
 <a
@@ -37,7 +29,6 @@ const subsetLabel = isSubset ? `for ${resource.for?.join(" + ")}` : null;
     <span class="authors">{resource.authors.join(", ")}</span>
     <div class="meta-row">
       <span class="kind">{resource.kind}</span>
-      {subsetLabel && <span class="compatibility">{subsetLabel}</span>}
     </div>
   </div>
 </a>
@@ -121,9 +112,5 @@ const subsetLabel = isSubset ? `for ${resource.for?.join(" + ")}` : null;
   .kind {
     color: var(--text-dim);
     text-transform: lowercase;
-  }
-
-  .compatibility {
-    color: var(--accent);
   }
 </style>

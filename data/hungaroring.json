@@ -1,16 +1,12 @@
 {
   "name": "Hungaroring",
-  "releases": [
-    {
-      "authors": ["ACU", "Reboot Team"],
-      "lengthKm": 4.4,
-      "pits": 30,
-      "layouts": 1,
-      "links": [
-        "https://www.mediafire.com/file/sd8sqeojg0bx6n9/acu_hungaroring_1.2.7z/",
-        "https://www.patreon.com/posts/reboot-team-list-99970979"
-      ]
-    }
+  "authors": ["ACU", "Reboot Team"],
+  "lengthKm": 4.4,
+  "pits": 30,
+  "layouts": 1,
+  "links": [
+    "https://www.mediafire.com/file/sd8sqeojg0bx6n9/acu_hungaroring_1.2.7z/",
+    "https://www.patreon.com/posts/reboot-team-list-99970979"
   ],
   "resources": [
     {

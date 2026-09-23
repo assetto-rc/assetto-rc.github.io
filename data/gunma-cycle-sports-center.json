@@ -1,15 +1,12 @@
 {
   "name": "Gunma Cycle Sports Center",
-  "releases": [
-    {
-      "authors": ["antudusun"],
-      "lengthKm": 5.9,
-      "pits": 32,
-      "layouts": 3,
-      "links": [
-        "https://www.overtake.gg/downloads/gunma-cycle-sports-center-aka-gunsai-touge-new-scratch-made.32941/"
-      ]
-    }
+  "folder": "pk_gunma_cycle_sports_center",
+  "authors": ["antudusun"],
+  "lengthKm": 5.9,
+  "pits": 32,
+  "layouts": 3,
+  "links": [
+    "https://www.overtake.gg/downloads/gunma-cycle-sports-center-aka-gunsai-touge-new-scratch-made.32941/"
   ],
   "resources": [
     {
