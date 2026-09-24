@@ -1,5 +1,6 @@
 {
   "name": "Okayama International Circuit",
+  "folder": "okayama",
   "authors": ["Mitja Bonca"],
   "lengthKm": 3.7,
   "pits": 36,

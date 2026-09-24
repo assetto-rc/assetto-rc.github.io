@@ -1,5 +1,6 @@
 {
   "name": "Fuji Speedway",
+  "folder": "rt_fuji_speedway",
   "authors": ["Reboot Team"],
   "lengthKm": 4.5,
   "pits": 36,

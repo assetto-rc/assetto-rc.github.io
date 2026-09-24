@@ -1,5 +1,6 @@
 {
   "name": "Dragon Trail",
+  "folder": "gt_dragontrail",
   "authors": ["Reboot Team"],
   "lengthKm": 5.2,
   "pits": 28,

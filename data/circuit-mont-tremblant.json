@@ -1,5 +1,6 @@
 {
   "name": "Circuit Mont-Tremblant",
+  "folder": "rt_mont_tremblant",
   "authors": ["Reboot Team"],
   "lengthKm": 4.3,
   "pits": 30,

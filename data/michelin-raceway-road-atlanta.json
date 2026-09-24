@@ -1,5 +1,6 @@
 {
   "name": "Michelin Raceway Road Atlanta",
+  "folder": "jr_road_atlanta_2022",
   "authors": ["John R"],
   "lengthKm": 4.0,
   "pits": 52,
@@ -22,14 +23,6 @@
       "kind": "ai",
       "links": [
         "https://www.overtake.gg/downloads/road-atlanta-2022-fast-ai-line.71447/"
-      ]
-    },
-    {
-      "name": "IMSA 2015",
-      "authors": ["morizottom"],
-      "kind": "skin",
-      "links": [
-        "https://www.overtake.gg/downloads/road-atlanta-imsa-2015-skin.63437/"
       ]
     }
   ],

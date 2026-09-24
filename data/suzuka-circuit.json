@@ -1,5 +1,6 @@
 {
   "name": "Suzuka Circuit",
+  "folder": "rt_suzuka",
   "authors": ["Reboot Team"],
   "lengthKm": 5.8,
   "pits": 36,

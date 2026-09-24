@@ -1,5 +1,6 @@
 {
   "name": "Sebring International Raceway",
+  "folder": "rt_sebring",
   "authors": ["Reboot Team"],
   "lengthKm": 6.0,
   "pits": 32,

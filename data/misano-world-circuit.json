@@ -1,5 +1,6 @@
 {
   "name": "Misano World Circuit",
+  "folder": "rt_misano",
   "authors": ["Reboot Team"],
   "lengthKm": 4.0,
   "pits": 38,

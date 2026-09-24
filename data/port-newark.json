@@ -1,5 +1,6 @@
 {
   "name": "Port Newark",
+  "folder": "rt_port_newark",
   "authors": ["Reboot Team"],
   "lengthKm": 4.1,
   "pits": 42,

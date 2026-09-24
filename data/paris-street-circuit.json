@@ -1,5 +1,6 @@
 {
   "name": "Paris Street Circuit",
+  "folder": "paris",
   "authors": ["Reboot Team"],
   "lengthKm": 2.7,
   "pits": 32,

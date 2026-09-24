@@ -1,5 +1,6 @@
 {
   "name": "Hungaroring",
+  "folder": "acu_hungaroring",
   "authors": ["ACU", "Reboot Team"],
   "lengthKm": 4.4,
   "pits": 30,

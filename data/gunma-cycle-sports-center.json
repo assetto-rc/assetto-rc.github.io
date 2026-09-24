@@ -11,7 +11,7 @@
   "resources": [
     {
       "name": "Replay Cams",
-      "authors": ["Leonardo Ratafiá"],
+      "authors": ["Leonardo Ratafiá"], 
       "kind": "camera",
       "links": [
         "https://www.overtake.gg/downloads/tv-camera-for-gunsai-touge.32972/"

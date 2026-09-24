@@ -1,5 +1,6 @@
 {
   "name": "Circuit de Sainte-Croix",
+  "folder": "gt_sainte_croix",
   "authors": ["Reboot Team"],
   "lengthKm": 9.4,
   "pits": 24,

@@ -1,5 +1,6 @@
 {
   "name": "Hockenheimring",
+  "folder": "vhe_hockenheim",
   "authors": ["VheEth"],
   "lengthKm": 4.6,
   "pits": 26,

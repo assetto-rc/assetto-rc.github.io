@@ -1,5 +1,6 @@
 {
   "name": "Virginia International Raceway",
+  "folder": "vir",
   "authors": ["dazzyb2k3"],
   "lengthKm": 5.2,
   "pits": 33,

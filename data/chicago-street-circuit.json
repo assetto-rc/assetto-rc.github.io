@@ -1,5 +1,6 @@
 {
   "name": "Chicago Street Circuit",
+  "folder": "acu_chicago_street",
   "authors": ["Reboot Team"],
   "lengthKm": 5.0,
   "pits": 30,

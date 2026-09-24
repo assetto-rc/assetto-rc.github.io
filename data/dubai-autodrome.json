@@ -1,5 +1,6 @@
 {
   "name": "Dubai Autodrome",
+  "folder": "rt_dubai",
   "authors": ["Reboot Team"],
   "lengthKm": 5.4,
   "pits": 60,

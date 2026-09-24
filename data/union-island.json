@@ -1,5 +1,6 @@
 {
   "name": "Union Island",
+  "folder": "union_island",
   "authors": ["Ben O'Bro"],
   "lengthKm": 33.5,
   "pits": 45,

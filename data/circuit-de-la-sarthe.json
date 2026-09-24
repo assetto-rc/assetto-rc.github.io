@@ -1,5 +1,6 @@
 {
   "name": "Circuit de la Sarthe",
+  "folder": "sx_lemans",
   "authors": ["Reboot Team"],
   "lengthKm": 13.6,
   "pits": 70,
